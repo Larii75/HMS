@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Popup name="Движения" id="37">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Движения</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Движения</v8:content>
+					</v8:item>
+				</ToolTip>
+				<ExtendedTooltip name="ДвиженияРасширеннаяПодсказка" id="38"/>
+				<ChildItems>
+					<Button name="ФормаРегистрНакопленияОборотыДоходыИРасходыОткрытьПоРегистратору" id="39">
+						<Type>CommandBarButton</Type>
+						<CommandName>AccumulationRegister.ОборотыДоходыИРасходы.StandardCommand.OpenByRecorder</CommandName>
+						<DataPath>Объект.Ref</DataPath>
+						<ExtendedTooltip name="ФормаРегистрНакопленияОборотыДоходыИРасходыОткрытьПоРегистраторуРасширеннаяПодсказка" id="40"/>
+					</Button>
+				</ChildItems>
+			</Popup>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="МояОрганизация" id="7">
+			<DataPath>Объект.МояОрганизация</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="МояОрганизацияКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="МояОрганизацияРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="СредствоРазмещения" id="10">
+			<DataPath>Объект.СредствоРазмещения</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="СредствоРазмещенияКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="СредствоРазмещенияРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="СтатьяАналитики" id="13">
+			<DataPath>Объект.СтатьяАналитики</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="СтатьяАналитикиКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="СтатьяАналитикиРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="ВалютаДокумента" id="16">
+			<DataPath>Объект.ВалютаДокумента</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ВалютаДокументаКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ВалютаДокументаРасширеннаяПодсказка" id="18"/>
+			<Events>
+				<Event name="OnChange">ВалютаДокументаПриИзменении</Event>
+			</Events>
+		</InputField>
+		<InputField name="ВидРасчетов" id="19">
+			<DataPath>Объект.ВидРасчетов</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ВидРасчетовКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="ВидРасчетовРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<InputField name="СуммаВВалютеДокумента" id="25">
+			<DataPath>Объект.СуммаВВалютеДокумента</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="СуммаВВалютеДокументаКонтекстноеМеню" id="26"/>
+			<ExtendedTooltip name="СуммаВВалютеДокументаРасширеннаяПодсказка" id="27"/>
+			<Events>
+				<Event name="OnChange">СуммаВВалютеДокументаПриИзменении</Event>
+			</Events>
+		</InputField>
+		<InputField name="Комментарий" id="31">
+			<DataPath>Объект.Комментарий</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ClearButton>true</ClearButton>
+			<OpenButton>true</OpenButton>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="32"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="33"/>
+		</InputField>
+		<LabelField name="ВалютаУчета" id="22">
+			<DataPath>Объект.ВалютаУчета</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ВалютаУчетаКонтекстноеМеню" id="23"/>
+			<ExtendedTooltip name="ВалютаУчетаРасширеннаяПодсказка" id="24"/>
+		</LabelField>
+		<LabelField name="СуммаВВалютеУчета" id="28">
+			<DataPath>Объект.СуммаВВалютеУчета</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="СуммаВВалютеУчетаКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="СуммаВВалютеУчетаРасширеннаяПодсказка" id="30"/>
+		</LabelField>
+		<LabelField name="Ответственный" id="34">
+			<DataPath>Объект.Ответственный</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОтветственныйКонтекстноеМеню" id="35"/>
+			<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="36"/>
+		</LabelField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.РасходДенежныхСредств</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+</Form>
