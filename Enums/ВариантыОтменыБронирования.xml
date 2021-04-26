@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<Enum uuid="b6e5366b-b345-4ea8-a12e-6b0df21b8da1">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВариантыОтменыБронирования" category="Ref">
+				<xr:TypeId>26878d4e-483c-4e3e-8adf-7e0166671ab3</xr:TypeId>
+				<xr:ValueId>65ce2df5-d201-4e7d-9ca9-c7e7a242edb0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВариантыОтменыБронирования" category="Manager">
+				<xr:TypeId>96bd6354-1b34-4dda-9210-0bd70b163628</xr:TypeId>
+				<xr:ValueId>04c1a4bd-faa3-41b3-a462-d1f8f955f577</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВариантыОтменыБронирования" category="List">
+				<xr:TypeId>faf67656-d150-4072-beee-b297279209e9</xr:TypeId>
+				<xr:ValueId>82c57b0e-d3ca-4f68-8153-52d57e82ec60</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ВариантыОтменыБронирования</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Варианты отмены бронирования</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<UseStandardCommands>false</UseStandardCommands>
+			<Characteristics/>
+			<QuickChoice>true</QuickChoice>
+			<ChoiceMode>BothWays</ChoiceMode>
+			<DefaultListForm/>
+			<DefaultChoiceForm/>
+			<AuxiliaryListForm/>
+			<AuxiliaryChoiceForm/>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+			<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="a882bf3a-7472-4257-96f6-763566c3a1aa">
+				<Properties>
+					<Name>ОтменятьБезСанкций</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отменять без санкций</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Бронирующему не начисляется долг</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="5b22230d-2380-4e56-a4fd-b239ed4ac82e">
+				<Properties>
+					<Name>ОтменятьССанкциейДнейОжидания</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отменять с санкцией дней ожидания</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Бронирующему начисляется долг за период дней ожидания</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="4aeba2eb-032c-4794-a9cb-f4331945bdda">
+				<Properties>
+					<Name>НеОтменять</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Не отменять</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Бронирующему начисляется долг за весь период бронирования</Comment>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

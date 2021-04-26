@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Popup name="Движения" id="47">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Движения</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Движения</v8:content>
+					</v8:item>
+				</ToolTip>
+				<ExtendedTooltip name="ДвиженияРасширеннаяПодсказка" id="48"/>
+				<ChildItems>
+					<Button name="ФормаРегистрНакопленияОборотыВыселенияОткрытьПоРегистратору" id="51">
+						<Type>CommandBarButton</Type>
+						<CommandName>AccumulationRegister.ОборотыВыселения.StandardCommand.OpenByRecorder</CommandName>
+						<DataPath>Объект.Ref</DataPath>
+						<ExtendedTooltip name="ФормаРегистрНакопленияОборотыВыселенияОткрытьПоРегистраторуРасширеннаяПодсказка" id="52"/>
+					</Button>
+					<Button name="ФормаРегистрНакопленияОстаткиВыселенийПоЗаселениямОткрытьПоРегистратору" id="49">
+						<Type>CommandBarButton</Type>
+						<CommandName>AccumulationRegister.ОстаткиВыселенийПоЗаселениям.StandardCommand.OpenByRecorder</CommandName>
+						<DataPath>Объект.Ref</DataPath>
+						<ExtendedTooltip name="ФормаРегистрНакопленияОстаткиВыселенийПоЗаселениямОткрытьПоРегистраторуРасширеннаяПодсказка" id="50"/>
+					</Button>
+					<Button name="ФормаРегистрНакопленияОстаткиБронированияОткрытьПоРегистратору" id="53">
+						<Type>CommandBarButton</Type>
+						<CommandName>AccumulationRegister.ОстаткиБронирования.StandardCommand.OpenByRecorder</CommandName>
+						<DataPath>Объект.Ref</DataPath>
+						<ExtendedTooltip name="ФормаРегистрНакопленияОстаткиБронированияОткрытьПоРегистраторуРасширеннаяПодсказка" id="54"/>
+					</Button>
+				</ChildItems>
+			</Popup>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="СредствоРазмещения" id="7">
+			<DataPath>Объект.СредствоРазмещения</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="СредствоРазмещенияКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="СредствоРазмещенияРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="ЭтажСредстваРазмещения" id="10">
+			<DataPath>Объект.ЭтажСредстваРазмещения</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ЭтажСредстваРазмещенияКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ЭтажСредстваРазмещенияРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<InputField name="Бронирование" id="13">
+			<DataPath>Объект.Бронирование</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="БронированиеКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="БронированиеРасширеннаяПодсказка" id="15"/>
+		</InputField>
+		<InputField name="Заселение" id="55">
+			<DataPath>Объект.Заселение</DataPath>
+			<ContextMenu name="ЗаселениеКонтекстноеМеню" id="56"/>
+			<ExtendedTooltip name="ЗаселениеРасширеннаяПодсказка" id="57"/>
+		</InputField>
+		<Table name="ГостиПоМестам" id="22">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.ГостиПоМестам</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ГостиПоМестамКонтекстноеМеню" id="23"/>
+			<AutoCommandBar name="ГостиПоМестамКоманднаяПанель" id="24"/>
+			<ExtendedTooltip name="ГостиПоМестамРасширеннаяПодсказка" id="25"/>
+			<SearchStringAddition name="ГостиПоМестамСтрокаПоиска" id="26">
+				<AdditionSource>
+					<Item>ГостиПоМестам</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ГостиПоМестамСтрокаПоискаКонтекстноеМеню" id="27"/>
+				<ExtendedTooltip name="ГостиПоМестамСтрокаПоискаРасширеннаяПодсказка" id="28"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ГостиПоМестамСостояниеПросмотра" id="29">
+				<AdditionSource>
+					<Item>ГостиПоМестам</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ГостиПоМестамСостояниеПросмотраКонтекстноеМеню" id="30"/>
+				<ExtendedTooltip name="ГостиПоМестамСостояниеПросмотраРасширеннаяПодсказка" id="31"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ГостиПоМестамУправлениеПоиском" id="32">
+				<AdditionSource>
+					<Item>ГостиПоМестам</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ГостиПоМестамУправлениеПоискомКонтекстноеМеню" id="33"/>
+				<ExtendedTooltip name="ГостиПоМестамУправлениеПоискомРасширеннаяПодсказка" id="34"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="ГостиПоМестамНомерСтроки" id="35">
+					<DataPath>Объект.ГостиПоМестам.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ГостиПоМестамНомерСтрокиКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="ГостиПоМестамНомерСтрокиРасширеннаяПодсказка" id="37"/>
+				</LabelField>
+				<InputField name="ГостиПоМестамГость" id="38">
+					<DataPath>Объект.ГостиПоМестам.Гость</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ГостиПоМестамГостьКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="ГостиПоМестамГостьРасширеннаяПодсказка" id="40"/>
+				</InputField>
+				<InputField name="ГостиПоМестамКомната" id="41">
+					<DataPath>Объект.ГостиПоМестам.Комната</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ГостиПоМестамКомнатаКонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="ГостиПоМестамКомнатаРасширеннаяПодсказка" id="43"/>
+				</InputField>
+				<InputField name="ГостиПоМестамМесто" id="44">
+					<DataPath>Объект.ГостиПоМестам.Место</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ГостиПоМестамМестоКонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="ГостиПоМестамМестоРасширеннаяПодсказка" id="46"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+		<InputField name="Комментарий" id="19">
+			<DataPath>Объект.Комментарий</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<AutoMaxWidth>false</AutoMaxWidth>
+			<ClearButton>true</ClearButton>
+			<OpenButton>true</OpenButton>
+			<ContextMenu name="КомментарийКонтекстноеМеню" id="20"/>
+			<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="21"/>
+		</InputField>
+		<LabelField name="Ответственный" id="16">
+			<DataPath>Объект.Ответственный</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОтветственныйКонтекстноеМеню" id="17"/>
+			<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="18"/>
+		</LabelField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.Выселение</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+</Form>

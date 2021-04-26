@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.11">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Popup name="Движения" id="16">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Движения</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Движения</v8:content>
+					</v8:item>
+				</ToolTip>
+				<ExtendedTooltip name="ДвиженияРасширеннаяПодсказка" id="17"/>
+				<ChildItems>
+					<Button name="ФормаРегистрНакопленияОборотыБронированияОткрытьПоРегистратору" id="31">
+						<Type>CommandBarButton</Type>
+						<CommandName>AccumulationRegister.ОборотыБронирования.StandardCommand.OpenByRecorder</CommandName>
+						<DataPath>Объект.Ref</DataPath>
+						<ExtendedTooltip name="ФормаРегистрНакопленияОборотыБронированияОткрытьПоРегистраторуРасширеннаяПодсказка" id="32"/>
+					</Button>
+					<Button name="ФормаРегистрНакопленияОборотыОтменыБронированияОткрытьПоРегистратору" id="18">
+						<Type>CommandBarButton</Type>
+						<CommandName>AccumulationRegister.ОборотыОтменыБронирования.StandardCommand.OpenByRecorder</CommandName>
+						<DataPath>Объект.Ref</DataPath>
+						<ExtendedTooltip name="ФормаРегистрНакопленияОборотыОтменыБронированияОткрытьПоРегистраторуРасширеннаяПодсказка" id="19"/>
+					</Button>
+					<Button name="ФормаРегистрНакопленияОстаткиБронированияОткрытьПоРегистратору" id="20">
+						<Type>CommandBarButton</Type>
+						<CommandName>AccumulationRegister.ОстаткиБронирования.StandardCommand.OpenByRecorder</CommandName>
+						<DataPath>Объект.Ref</DataPath>
+						<ExtendedTooltip name="ФормаРегистрНакопленияОстаткиБронированияОткрытьПоРегистраторуРасширеннаяПодсказка" id="21"/>
+					</Button>
+					<Button name="ФормаРегистрНакопленияОстаткиВзаиморасчетовОткрытьПоРегистратору" id="22">
+						<Type>CommandBarButton</Type>
+						<CommandName>AccumulationRegister.ОстаткиВзаиморасчетов.StandardCommand.OpenByRecorder</CommandName>
+						<DataPath>Объект.Ref</DataPath>
+						<ExtendedTooltip name="ФормаРегистрНакопленияОстаткиВзаиморасчетовОткрытьПоРегистраторуРасширеннаяПодсказка" id="23"/>
+					</Button>
+					<Button name="ФормаРегистрНакопленияОстаткиМестРазмещенияОткрытьПоРегистратору" id="24">
+						<Type>CommandBarButton</Type>
+						<CommandName>AccumulationRegister.ОстаткиМестРазмещения.StandardCommand.OpenByRecorder</CommandName>
+						<DataPath>Объект.Ref</DataPath>
+						<ExtendedTooltip name="ФормаРегистрНакопленияОстаткиМестРазмещенияОткрытьПоРегистраторуРасширеннаяПодсказка" id="25"/>
+					</Button>
+				</ChildItems>
+			</Popup>
+		</ChildItems>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Бронирование" id="7">
+			<DataPath>Объект.Бронирование</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="БронированиеКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="БронированиеРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="ТипОтменыБронирования" id="28">
+			<DataPath>Объект.ТипОтменыБронирования</DataPath>
+			<Enabled>false</Enabled>
+			<ContextMenu name="ТипОтменыБронированияКонтекстноеМеню" id="29"/>
+			<ExtendedTooltip name="ТипОтменыБронированияРасширеннаяПодсказка" id="30"/>
+		</InputField>
+		<UsualGroup name="Группа1" id="26">
+			<HorizontalStretch>true</HorizontalStretch>
+			<Group>Vertical</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="27"/>
+			<ChildItems>
+				<InputField name="Комментарий" id="13">
+					<DataPath>Объект.Комментарий</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<Width>50</Width>
+					<Height>3</Height>
+					<AutoMaxHeight>false</AutoMaxHeight>
+					<MaxHeight>3</MaxHeight>
+					<HorizontalStretch>true</HorizontalStretch>
+					<MultiLine>true</MultiLine>
+					<ExtendedEdit>true</ExtendedEdit>
+					<ContextMenu name="КомментарийКонтекстноеМеню" id="14"/>
+					<ExtendedTooltip name="КомментарийРасширеннаяПодсказка" id="15"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<LabelField name="Ответственный" id="10">
+			<DataPath>Объект.Ответственный</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ОтветственныйКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ОтветственныйРасширеннаяПодсказка" id="12"/>
+		</LabelField>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ОтменаБронирования</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+</Form>
