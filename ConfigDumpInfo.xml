@@ -247,7 +247,7 @@
 		<Metadata name="CommonPicture.Сервис.Picture" id="21ca461e-810b-41fc-89d3-7fe8075cbc54.0" configVersion="76954fa7a8dfb449ba47c734cfd5b06b00000000"/>
 		<Metadata name="CommonPicture.Справочники" id="66e212f9-fc5f-43c0-80f8-f5edc85a9347" configVersion="57e20fcbec4ce643a90590edf70e5e8400000000"/>
 		<Metadata name="CommonPicture.Справочники.Picture" id="66e212f9-fc5f-43c0-80f8-f5edc85a9347.0" configVersion="86f2978330db9d459c5a36b03cfb085b00000000"/>
-		<Metadata name="Configuration.HotelManagementSystem" id="a92cebe9-4e30-4901-842c-b1cc1d0adc9a" configVersion="ce07651b48f00f4e96fdb167a8ba8dee00000000"/>
+		<Metadata name="Configuration.HotelManagementSystem" id="a92cebe9-4e30-4901-842c-b1cc1d0adc9a" configVersion="769e4845dedfa24f8000e975f93e175800000000"/>
 		<Metadata name="Configuration.HotelManagementSystem.CommandInterface" id="a0068262-10a0-4841-82b6-f6e35a7fc312.a" configVersion="a20768efd0c4e5479cabb45d4af3614f00000000"/>
 		<Metadata name="Configuration.HotelManagementSystem.HomePageWorkArea" id="a0068262-10a0-4841-82b6-f6e35a7fc312.8" configVersion="b50486eec9984940bc5ee114037bdf2700000000"/>
 		<Metadata name="Configuration.HotelManagementSystem.MainSectionCommandInterface" id="a0068262-10a0-4841-82b6-f6e35a7fc312.9" configVersion="038be6a0035df543a1ba0212fcdb97cc00000000"/>

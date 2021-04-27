@@ -48,9 +48,9 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ПолныеПрава</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
-			<Vendor>AuthorL</Vendor>
+			<Vendor>Larii75</Vendor>
 			<Version>Версия 1.0.0.0 alfa 0 Demo</Version>
-			<UpdateCatalogAddress/>
+			<UpdateCatalogAddress>https://github.com/Larii75/HMS</UpdateCatalogAddress>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
 			<UseOrdinaryFormInManagedApplication>false</UseOrdinaryFormInManagedApplication>
