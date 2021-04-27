@@ -233,8 +233,8 @@
 		<Metadata name="CommonModule.СтандартныеПодсистемыСервер.Module" id="79bb4f62-9280-454e-8e76-cc292c7daf2f.0" configVersion="1828cc6cdfade04ba737b509e0095c6700000000"/>
 		<Metadata name="CommonModule.УсловноеОформлениеСервер" id="21ff1dc9-ea1b-49fa-97ab-543984ddd2ff" configVersion="35fd12a9f63bd04ba5456659a99f2ece00000000"/>
 		<Metadata name="CommonModule.УсловноеОформлениеСервер.Module" id="21ff1dc9-ea1b-49fa-97ab-543984ddd2ff.0" configVersion="1ce634f5ed2f764b9e9d8e4f5a0cc8e700000000"/>
-		<Metadata name="CommonModule.ФункцииПримитивныеТипыКлиент" id="bd9e944c-24de-4138-b430-b74a3b9fbfd1" configVersion="fae06d5dbb523348b5a920f912ac708d00000000"/>
-		<Metadata name="CommonModule.ФункцииПримитивныеТипыКлиент.Module" id="bd9e944c-24de-4138-b430-b74a3b9fbfd1.0" configVersion="4b31f211f831c944b4035101d013fac100000000"/>
+		<Metadata name="CommonModule.ФункцииПримитивныеТипыКлиентСервер" id="bd9e944c-24de-4138-b430-b74a3b9fbfd1" configVersion="45b66815ebc55d4da5e05ac1a8f1620a00000000"/>
+		<Metadata name="CommonModule.ФункцииПримитивныеТипыКлиентСервер.Module" id="bd9e944c-24de-4138-b430-b74a3b9fbfd1.0" configVersion="8c9c6ace36465c429f906d37256ffdd600000000"/>
 		<Metadata name="CommonModule.ФункцииПримитивныеТипыСервер" id="4fdf38b2-12a6-4e3f-9ba3-c4727bbc806e" configVersion="994d9645a0894445a5ff112f5e1986d500000000"/>
 		<Metadata name="CommonModule.ФункцииПримитивныеТипыСервер.Module" id="4fdf38b2-12a6-4e3f-9ba3-c4727bbc806e.0" configVersion="aa546c366cbdc1498298092698787e5800000000"/>
 		<Metadata name="CommonPicture.Документы" id="1dcbd34f-6a79-4a65-bb45-d8bf7d0149cb" configVersion="a9ec126b4ab3394aadbaed90750134d400000000"/>

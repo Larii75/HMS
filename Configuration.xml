@@ -231,7 +231,7 @@
 			<Role>ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</Role>
 			<CommonModule>БлокировкаДанныхСервер</CommonModule>
 			<CommonModule>РегламентныеЗаданияСервер</CommonModule>
-			<CommonModule>ФункцииПримитивныеТипыКлиент</CommonModule>
+			<CommonModule>ФункцииПримитивныеТипыКлиентСервер</CommonModule>
 			<CommonModule>ФункцииПримитивныеТипыСервер</CommonModule>
 			<CommonModule>УсловноеОформлениеСервер</CommonModule>
 			<CommonModule>СтандартныеПодсистемыСервер</CommonModule>
