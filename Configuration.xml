@@ -28,11 +28,11 @@
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
-			<Name>ОбщежитиеДобрыйДом</Name>
+			<Name>HotelManagementSystem</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Общежитие Добрый Дом</v8:content>
+					<v8:content>Hotel management system</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -175,7 +175,7 @@
 			<StandaloneConfigurationRestrictionRoles/>
 			<MainClientApplicationWindowMode>Normal</MainClientApplicationWindowMode>
 			<DefaultInterface/>
-			<DefaultStyle>Style.ДобрыйДом</DefaultStyle>
+			<DefaultStyle>Style.ПоУмолчанию</DefaultStyle>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation>
 				<v8:item>
@@ -219,7 +219,7 @@
 			<Subsystem>Отчеты</Subsystem>
 			<Subsystem>Сервис</Subsystem>
 			<Subsystem>Регистры</Subsystem>
-			<Style>ДобрыйДом</Style>
+			<Style>ПоУмолчанию</Style>
 			<CommonPicture>Мероприятия</CommonPicture>
 			<CommonPicture>Справочники</CommonPicture>
 			<CommonPicture>Документы</CommonPicture>
@@ -231,6 +231,7 @@
 			<Role>ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</Role>
 			<CommonModule>БлокировкаДанныхСервер</CommonModule>
 			<CommonModule>РегламентныеЗаданияСервер</CommonModule>
+			<CommonModule>ФункцииПримитивныеТипыКлиент</CommonModule>
 			<CommonModule>ФункцииПримитивныеТипыСервер</CommonModule>
 			<CommonModule>УсловноеОформлениеСервер</CommonModule>
 			<CommonModule>СтандартныеПодсистемыСервер</CommonModule>

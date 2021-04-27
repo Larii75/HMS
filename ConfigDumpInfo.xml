@@ -233,6 +233,8 @@
 		<Metadata name="CommonModule.СтандартныеПодсистемыСервер.Module" id="79bb4f62-9280-454e-8e76-cc292c7daf2f.0" configVersion="1828cc6cdfade04ba737b509e0095c6700000000"/>
 		<Metadata name="CommonModule.УсловноеОформлениеСервер" id="21ff1dc9-ea1b-49fa-97ab-543984ddd2ff" configVersion="35fd12a9f63bd04ba5456659a99f2ece00000000"/>
 		<Metadata name="CommonModule.УсловноеОформлениеСервер.Module" id="21ff1dc9-ea1b-49fa-97ab-543984ddd2ff.0" configVersion="1ce634f5ed2f764b9e9d8e4f5a0cc8e700000000"/>
+		<Metadata name="CommonModule.ФункцииПримитивныеТипыКлиент" id="bd9e944c-24de-4138-b430-b74a3b9fbfd1" configVersion="fae06d5dbb523348b5a920f912ac708d00000000"/>
+		<Metadata name="CommonModule.ФункцииПримитивныеТипыКлиент.Module" id="bd9e944c-24de-4138-b430-b74a3b9fbfd1.0" configVersion="4b31f211f831c944b4035101d013fac100000000"/>
 		<Metadata name="CommonModule.ФункцииПримитивныеТипыСервер" id="4fdf38b2-12a6-4e3f-9ba3-c4727bbc806e" configVersion="994d9645a0894445a5ff112f5e1986d500000000"/>
 		<Metadata name="CommonModule.ФункцииПримитивныеТипыСервер.Module" id="4fdf38b2-12a6-4e3f-9ba3-c4727bbc806e.0" configVersion="aa546c366cbdc1498298092698787e5800000000"/>
 		<Metadata name="CommonPicture.Документы" id="1dcbd34f-6a79-4a65-bb45-d8bf7d0149cb" configVersion="a9ec126b4ab3394aadbaed90750134d400000000"/>
@@ -245,13 +247,13 @@
 		<Metadata name="CommonPicture.Сервис.Picture" id="21ca461e-810b-41fc-89d3-7fe8075cbc54.0" configVersion="76954fa7a8dfb449ba47c734cfd5b06b00000000"/>
 		<Metadata name="CommonPicture.Справочники" id="66e212f9-fc5f-43c0-80f8-f5edc85a9347" configVersion="57e20fcbec4ce643a90590edf70e5e8400000000"/>
 		<Metadata name="CommonPicture.Справочники.Picture" id="66e212f9-fc5f-43c0-80f8-f5edc85a9347.0" configVersion="86f2978330db9d459c5a36b03cfb085b00000000"/>
-		<Metadata name="Configuration.ОбщежитиеДобрыйДом" id="a92cebe9-4e30-4901-842c-b1cc1d0adc9a" configVersion="6423632c290fc74bb01c68cd51e0b88900000000"/>
-		<Metadata name="Configuration.ОбщежитиеДобрыйДом.CommandInterface" id="a0068262-10a0-4841-82b6-f6e35a7fc312.a" configVersion="a20768efd0c4e5479cabb45d4af3614f00000000"/>
-		<Metadata name="Configuration.ОбщежитиеДобрыйДом.HomePageWorkArea" id="a0068262-10a0-4841-82b6-f6e35a7fc312.8" configVersion="b50486eec9984940bc5ee114037bdf2700000000"/>
-		<Metadata name="Configuration.ОбщежитиеДобрыйДом.MainSectionCommandInterface" id="a0068262-10a0-4841-82b6-f6e35a7fc312.9" configVersion="038be6a0035df543a1ba0212fcdb97cc00000000"/>
-		<Metadata name="Configuration.ОбщежитиеДобрыйДом.MainSectionPicture" id="a0068262-10a0-4841-82b6-f6e35a7fc312.c" configVersion="a876551576d1eb40a4f6e4e92eca3f4700000000"/>
-		<Metadata name="Configuration.ОбщежитиеДобрыйДом.ManagedApplicationModule" id="a0068262-10a0-4841-82b6-f6e35a7fc312.6" configVersion="201992c16efb0945a4f6fd6a7d49304400000000"/>
-		<Metadata name="Configuration.ОбщежитиеДобрыйДом.SessionModule" id="a0068262-10a0-4841-82b6-f6e35a7fc312.7" configVersion="dfdc39e313e1ba49b65e7183db33d43800000000"/>
+		<Metadata name="Configuration.HotelManagementSystem" id="a92cebe9-4e30-4901-842c-b1cc1d0adc9a" configVersion="ce07651b48f00f4e96fdb167a8ba8dee00000000"/>
+		<Metadata name="Configuration.HotelManagementSystem.CommandInterface" id="a0068262-10a0-4841-82b6-f6e35a7fc312.a" configVersion="a20768efd0c4e5479cabb45d4af3614f00000000"/>
+		<Metadata name="Configuration.HotelManagementSystem.HomePageWorkArea" id="a0068262-10a0-4841-82b6-f6e35a7fc312.8" configVersion="b50486eec9984940bc5ee114037bdf2700000000"/>
+		<Metadata name="Configuration.HotelManagementSystem.MainSectionCommandInterface" id="a0068262-10a0-4841-82b6-f6e35a7fc312.9" configVersion="038be6a0035df543a1ba0212fcdb97cc00000000"/>
+		<Metadata name="Configuration.HotelManagementSystem.MainSectionPicture" id="a0068262-10a0-4841-82b6-f6e35a7fc312.c" configVersion="a876551576d1eb40a4f6e4e92eca3f4700000000"/>
+		<Metadata name="Configuration.HotelManagementSystem.ManagedApplicationModule" id="a0068262-10a0-4841-82b6-f6e35a7fc312.6" configVersion="201992c16efb0945a4f6fd6a7d49304400000000"/>
+		<Metadata name="Configuration.HotelManagementSystem.SessionModule" id="a0068262-10a0-4841-82b6-f6e35a7fc312.7" configVersion="dfdc39e313e1ba49b65e7183db33d43800000000"/>
 		<Metadata name="Constant.АдресСервисаЗагрузкиВалют" id="082c2c1d-cf6b-42d0-8c15-726f3b2064d6" configVersion="239f75ac5e8ea049b42393f730f3bbc000000000"/>
 		<Metadata name="Constant.ВалютаУчета" id="9eb0fd21-a300-4c82-8a42-1416b5dbff9a" configVersion="d0da1c353fb8804399508a248451fad500000000"/>
 		<Metadata name="Constant.ВариантОтменыБронирования" id="d9e5c435-f92e-42be-930c-b5e82933a078" configVersion="faca1ea4e6d35b42b9ab7e2f1b9b845400000000"/>
@@ -280,8 +282,8 @@
 		</Metadata>
 		<Metadata name="DataProcessor.ДоскаЗаказов.Form.ОперативноеБронирование" id="923a8db7-47fb-42d7-aa33-49335b50ea87" configVersion="d1ceafb7cac4ae42ba485c37034e177600000000"/>
 		<Metadata name="DataProcessor.ДоскаЗаказов.Form.ОперативноеБронирование.Form" id="923a8db7-47fb-42d7-aa33-49335b50ea87.0" configVersion="0d314dbe6804474aa2ae75c505ce76d700000000"/>
-		<Metadata name="DataProcessor.ДоскаЗаказов.Form.Форма" id="36b0ec21-9f7e-4ba1-96e4-0d14424c2d20" configVersion="7562a63573368c4cb5e9239320549b7400000000"/>
-		<Metadata name="DataProcessor.ДоскаЗаказов.Form.Форма.Form" id="36b0ec21-9f7e-4ba1-96e4-0d14424c2d20.0" configVersion="8705d9c40fd36f4ca04d1cd36de2bb7b00000000"/>
+		<Metadata name="DataProcessor.ДоскаЗаказов.Form.Форма" id="36b0ec21-9f7e-4ba1-96e4-0d14424c2d20" configVersion="603781d29ef43f45b2eb2557d854441000000000"/>
+		<Metadata name="DataProcessor.ДоскаЗаказов.Form.Форма.Form" id="36b0ec21-9f7e-4ba1-96e4-0d14424c2d20.0" configVersion="ae96dd121fc7124e952a1d2c7e5576f400000000"/>
 		<Metadata name="DataProcessor.ДоскаЗаказов.ObjectModule" id="34771a68-3536-4de6-96c8-5d8f7e13e519.0" configVersion="49ef1863c3bde044973eaf25e658180400000000"/>
 		<Metadata name="DataProcessor.ДоскаЗаказов.Template.ИсточникТаблицыЗначений" id="07e1ddb4-51f2-4ee2-9a6f-c43413c7634d" configVersion="c3ab8171fafb7c49946beaa2d33bfe1000000000"/>
 		<Metadata name="DataProcessor.ДоскаЗаказов.Template.ИсточникТаблицыЗначений.Template" id="07e1ddb4-51f2-4ee2-9a6f-c43413c7634d.0" configVersion="f94a3287a44e174fa68292714810f51600000000"/>
@@ -619,8 +621,8 @@
 		<Metadata name="ScheduledJob.ПолнотекстовыйПоискСервис" id="8413729a-cc84-47d8-b9f8-c1d0246ba232" configVersion="cd4fdf475ca6ad4f8859821e526e545400000000"/>
 		<Metadata name="ScheduledJob.ПолнотекстовыйПоискСервис.Schedule" id="8413729a-cc84-47d8-b9f8-c1d0246ba232.0" configVersion="ec4dcfacbb584e4c9a03baed85bea24700000000"/>
 		<Metadata name="SessionParameter.ТекущийПользователь" id="ff0a5ed7-8f58-473d-96cb-317e8af9164c" configVersion="a5c420ee07fba94f99062dc5486088d100000000"/>
-		<Metadata name="Style.ДобрыйДом" id="d1b5d86b-e7b1-4db2-8bc4-b932df9bf940" configVersion="53bf4f347c802b4cba643356f64e983800000000"/>
-		<Metadata name="Style.ДобрыйДом.Style" id="d1b5d86b-e7b1-4db2-8bc4-b932df9bf940.0" configVersion="66ff4860717ea64db580c1366d08b0de00000000"/>
+		<Metadata name="Style.ПоУмолчанию" id="d1b5d86b-e7b1-4db2-8bc4-b932df9bf940" configVersion="0bccdf2acf858c49b08b7e7312a978b300000000"/>
+		<Metadata name="Style.ПоУмолчанию.Style" id="d1b5d86b-e7b1-4db2-8bc4-b932df9bf940.0" configVersion="66ff4860717ea64db580c1366d08b0de00000000"/>
 		<Metadata name="Subsystem.Документы" id="d197b3f7-b3fe-4f64-9460-26a2011d24c2" configVersion="b256c2df03020943a9a2cdf35d0ede2600000000"/>
 		<Metadata name="Subsystem.Документы.CommandInterface" id="d197b3f7-b3fe-4f64-9460-26a2011d24c2.1" configVersion="c323a0990a3b1b4397d760b98ebb536e00000000"/>
 		<Metadata name="Subsystem.Мероприятия" id="72c5f805-edbc-4a80-8a94-64174e2076b3" configVersion="93e67828b530984387b705d4f205929e00000000"/>
