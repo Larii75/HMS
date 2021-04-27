@@ -2003,7 +2003,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Configuration.ОбщежитиеДобрыйДом</name>
+		<name>Configuration.HotelManagementSystem</name>
 		<right>
 			<name>Administration</name>
 			<value>true</value>

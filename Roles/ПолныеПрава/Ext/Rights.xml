@@ -1645,7 +1645,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Configuration.ОбщежитиеДобрыйДом</name>
+		<name>Configuration.HotelManagementSystem</name>
 		<right>
 			<name>DataAdministration</name>
 			<value>true</value>
