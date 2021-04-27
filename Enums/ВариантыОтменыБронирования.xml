@@ -40,26 +40,38 @@
 		<ChildObjects>
 			<EnumValue uuid="a882bf3a-7472-4257-96f6-763566c3a1aa">
 				<Properties>
-					<Name>ОтменятьБезСанкций</Name>
+					<Name>ОтменятьБезСанкцийВручную</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отменять без санкций</v8:content>
+							<v8:content>Отменять без санкций вручную</v8:content>
 						</v8:item>
 					</Synonym>
-					<Comment>Бронирующему не начисляется долг</Comment>
+					<Comment>Бронирующему не начисляется долг. Документы "Отмена бронирования" необходимо создавать вручную</Comment>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="7f54b39e-575c-4927-8046-54a8a99ada84">
+				<Properties>
+					<Name>ОтменятьБезСанкцийАвтоматически</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отменять без санкций автоматически</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment>Бронирующему не начисляется долг. Документы "Отмена бронирования" создаются регламентым заданием.</Comment>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="5b22230d-2380-4e56-a4fd-b239ed4ac82e">
 				<Properties>
-					<Name>ОтменятьССанкциейДнейОжидания</Name>
+					<Name>ОтменятьССанкциейДнейОжиданияАвтоматически</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Отменять с санкцией дней ожидания</v8:content>
+							<v8:content>Отменять с санкцией дней ожидания автоматически</v8:content>
 						</v8:item>
 					</Synonym>
-					<Comment>Бронирующему начисляется долг за период дней ожидания</Comment>
+					<Comment>Бронирующему начисляется долг за период дней ожидания. Документы "Отмена бронирования" создаются вручнуюДокументы "Отмена бронирования" создаются регламентным заданием.</Comment>
 				</Properties>
 			</EnumValue>
 			<EnumValue uuid="4aeba2eb-032c-4794-a9cb-f4331945bdda">

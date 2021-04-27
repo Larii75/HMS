@@ -189,8 +189,11 @@
 		<Metadata name="Catalog.МестаРазмещения" id="3fe1210f-ed06-47b0-82e6-8179020944eb" configVersion="7ba7233c642377498ff49f869a1fb9ed00000000">
 			<Metadata name="Catalog.МестаРазмещения.Attribute.Комментарий" id="acaba783-403d-488b-89af-5c91d0b67055"/>
 		</Metadata>
-		<Metadata name="Catalog.МоиОрганизации" id="0ebe9eb5-9fd4-4a1e-bcd3-e893e85424ba" configVersion="c962fbfd2341cc43bdf5d1d30fc0a8f900000000">
+		<Metadata name="Catalog.МоиОрганизации" id="0ebe9eb5-9fd4-4a1e-bcd3-e893e85424ba" configVersion="a8af31a5be9f9447b36ebcb7380625eb00000000">
 			<Metadata name="Catalog.МоиОрганизации.Attribute.Комментарий" id="4586cdf6-962a-4fbc-9a4e-abcfa82a571c"/>
+			<Metadata name="Catalog.МоиОрганизации.Attribute.ФИОРуководителя" id="b7821eca-1474-472b-bcac-e63df63401fe"/>
+			<Metadata name="Catalog.МоиОрганизации.Attribute.ТипДокумента" id="ccac62af-da17-4f18-8bc3-722cb243c5f6"/>
+			<Metadata name="Catalog.МоиОрганизации.Attribute.НомерДокумента" id="e3c70bd5-4f17-48ef-8a00-7306f5cf6f3f"/>
 		</Metadata>
 		<Metadata name="Catalog.Пользователи" id="e110f192-9618-453b-bda1-7ffba1927b4c" configVersion="243dccc603633a49b5ae7ca4765d9d2a00000000">
 			<Metadata name="Catalog.Пользователи.Attribute.ИмяПользователяИБ" id="1d5d53ae-b0e0-485f-9289-acfedf9fcbd0"/>
@@ -242,7 +245,7 @@
 		<Metadata name="CommonPicture.Сервис.Picture" id="21ca461e-810b-41fc-89d3-7fe8075cbc54.0" configVersion="76954fa7a8dfb449ba47c734cfd5b06b00000000"/>
 		<Metadata name="CommonPicture.Справочники" id="66e212f9-fc5f-43c0-80f8-f5edc85a9347" configVersion="57e20fcbec4ce643a90590edf70e5e8400000000"/>
 		<Metadata name="CommonPicture.Справочники.Picture" id="66e212f9-fc5f-43c0-80f8-f5edc85a9347.0" configVersion="86f2978330db9d459c5a36b03cfb085b00000000"/>
-		<Metadata name="Configuration.ОбщежитиеДобрыйДом" id="a92cebe9-4e30-4901-842c-b1cc1d0adc9a" configVersion="59da987edff3c54086732a8e09300cd400000000"/>
+		<Metadata name="Configuration.ОбщежитиеДобрыйДом" id="a92cebe9-4e30-4901-842c-b1cc1d0adc9a" configVersion="6423632c290fc74bb01c68cd51e0b88900000000"/>
 		<Metadata name="Configuration.ОбщежитиеДобрыйДом.CommandInterface" id="a0068262-10a0-4841-82b6-f6e35a7fc312.a" configVersion="a20768efd0c4e5479cabb45d4af3614f00000000"/>
 		<Metadata name="Configuration.ОбщежитиеДобрыйДом.HomePageWorkArea" id="a0068262-10a0-4841-82b6-f6e35a7fc312.8" configVersion="b50486eec9984940bc5ee114037bdf2700000000"/>
 		<Metadata name="Configuration.ОбщежитиеДобрыйДом.MainSectionCommandInterface" id="a0068262-10a0-4841-82b6-f6e35a7fc312.9" configVersion="038be6a0035df543a1ba0212fcdb97cc00000000"/>
@@ -379,12 +382,12 @@
 		<Metadata name="Document.Заселение.Form.ФормаДокумента.Form" id="449dc47e-796f-4850-819c-af1bca8994d3.0" configVersion="3abf0e61681f0648a206d080e331e25f00000000"/>
 		<Metadata name="Document.Заселение.ManagerModule" id="51777ced-c86e-4c25-a19b-6ff78fcb9372.2" configVersion="afe78dc32f28be4080a4e38ecde9cd0e00000000"/>
 		<Metadata name="Document.Заселение.ObjectModule" id="51777ced-c86e-4c25-a19b-6ff78fcb9372.0" configVersion="d00aa40dd231f342819a9e9f8aab49fe00000000"/>
-		<Metadata name="Document.Заселение.Template.ПечатьПравилаОбщежития" id="e3a4dc63-249c-4073-9171-ef82e610d8e1" configVersion="97b2b0865921e441bd4dc31e675e13d700000000"/>
-		<Metadata name="Document.Заселение.Template.ПечатьПравилаОбщежития.Template" id="e3a4dc63-249c-4073-9171-ef82e610d8e1.0" configVersion="5c5fac4495bb9b4385c6dd3214f4aa7300000000"/>
-		<Metadata name="Document.Заселение.Template.ПечатьПропусков" id="15f7c116-083d-4810-b4f7-cce3b801944f" configVersion="04553f4a0a046e47b51c2b352289f87d00000000"/>
-		<Metadata name="Document.Заселение.Template.ПечатьПропусков.Template" id="15f7c116-083d-4810-b4f7-cce3b801944f.0" configVersion="45431f17965d1745ab763edb9048217800000000"/>
-		<Metadata name="Document.Заселение.Template.СоглашениеПоCovid19" id="51f4dfd3-8645-4858-ad27-1bde9da5f555" configVersion="7f06d9612d14de449552e9c24a86f4c400000000"/>
-		<Metadata name="Document.Заселение.Template.СоглашениеПоCovid19.Template" id="51f4dfd3-8645-4858-ad27-1bde9da5f555.0" configVersion="4f30cb92df467446b14be7721cc826d700000000"/>
+		<Metadata name="Document.Заселение.Template.ПечатьПравилаОбщежития" id="e3a4dc63-249c-4073-9171-ef82e610d8e1" configVersion="3e9b4fbd88db3041b499950fe2c6e05e00000000"/>
+		<Metadata name="Document.Заселение.Template.ПечатьПравилаОбщежития.Template" id="e3a4dc63-249c-4073-9171-ef82e610d8e1.0" configVersion="06fc65e84d8f9240b3104e31b612afd300000000"/>
+		<Metadata name="Document.Заселение.Template.ПечатьПропусков" id="15f7c116-083d-4810-b4f7-cce3b801944f" configVersion="4dbf1d70b0bfe0488fc9e7dec0fe524a00000000"/>
+		<Metadata name="Document.Заселение.Template.ПечатьПропусков.Template" id="15f7c116-083d-4810-b4f7-cce3b801944f.0" configVersion="5f2ffa6870bf144aa17a36154e1cc03a00000000"/>
+		<Metadata name="Document.Заселение.Template.СоглашениеПоCovid19" id="51f4dfd3-8645-4858-ad27-1bde9da5f555" configVersion="3ff1f0dc7a516e48b989bbde8e41b77600000000"/>
+		<Metadata name="Document.Заселение.Template.СоглашениеПоCovid19.Template" id="51f4dfd3-8645-4858-ad27-1bde9da5f555.0" configVersion="90d2d0cdd752a34ba4e0fc18f2cec97a00000000"/>
 		<Metadata name="Document.ОтзывСогласияНаОбработкуПерсональныхДанных" id="b502fbd0-94b7-4588-a256-21edebeaef72" configVersion="ed5ad256469305438492b79a486653d900000000">
 			<Metadata name="Document.ОтзывСогласияНаОбработкуПерсональныхДанных.Attribute.Ответственный" id="027607cd-dc91-466f-a48c-3bbddb3ed907"/>
 			<Metadata name="Document.ОтзывСогласияНаОбработкуПерсональныхДанных.Attribute.ВладелецДанных" id="30398df4-dd5b-4770-b82c-84fa0b07778a"/>
@@ -449,10 +452,11 @@
 			<Metadata name="DocumentJournal.ЖурналОплатБронирования.Column.ВидРасчетов" id="9072cd1e-dc35-4e3d-939e-5ce8796efd73"/>
 			<Metadata name="DocumentJournal.ЖурналОплатБронирования.Column.СуммаВВалютеУчета" id="c8e48114-ce91-4c9d-be01-030bbfba2643"/>
 		</Metadata>
-		<Metadata name="Enum.ВариантыОтменыБронирования" id="b6e5366b-b345-4ea8-a12e-6b0df21b8da1" configVersion="2f4a9885da9db942bebed5bf33e9ed7300000000">
+		<Metadata name="Enum.ВариантыОтменыБронирования" id="b6e5366b-b345-4ea8-a12e-6b0df21b8da1" configVersion="32a7ffab33aceb4890b457b0f44ed26100000000">
 			<Metadata name="Enum.ВариантыОтменыБронирования.EnumValue.НеОтменять" id="4aeba2eb-032c-4794-a9cb-f4331945bdda"/>
-			<Metadata name="Enum.ВариантыОтменыБронирования.EnumValue.ОтменятьССанкциейДнейОжидания" id="5b22230d-2380-4e56-a4fd-b239ed4ac82e"/>
-			<Metadata name="Enum.ВариантыОтменыБронирования.EnumValue.ОтменятьБезСанкций" id="a882bf3a-7472-4257-96f6-763566c3a1aa"/>
+			<Metadata name="Enum.ВариантыОтменыБронирования.EnumValue.ОтменятьССанкциейДнейОжиданияАвтоматически" id="5b22230d-2380-4e56-a4fd-b239ed4ac82e"/>
+			<Metadata name="Enum.ВариантыОтменыБронирования.EnumValue.ОтменятьБезСанкцийАвтоматически" id="7f54b39e-575c-4927-8046-54a8a99ada84"/>
+			<Metadata name="Enum.ВариантыОтменыБронирования.EnumValue.ОтменятьБезСанкцийВручную" id="a882bf3a-7472-4257-96f6-763566c3a1aa"/>
 		</Metadata>
 		<Metadata name="Enum.ВидРасчетов" id="24f012ee-6b6e-415e-84f0-4233901cc596" configVersion="c5710a93b633bc459f2fc09a6839907500000000">
 			<Metadata name="Enum.ВидРасчетов.EnumValue.Безналичный" id="29ee3dd8-3f4d-47d5-a696-8ccb62e88643"/>
@@ -492,6 +496,10 @@
 			<Metadata name="Enum.ТипДокументаЛичности.EnumValue.ВоенныйБилет" id="a4de86c5-8d4b-4502-8869-309d9312a7cd"/>
 			<Metadata name="Enum.ТипДокументаЛичности.EnumValue.ВодительскоеУдостоверение" id="b8423b04-86a0-4acd-ae08-291b5092d0fa"/>
 			<Metadata name="Enum.ТипДокументаЛичности.EnumValue.Паспорт" id="e2b14457-a7bd-469b-977d-145f05665a94"/>
+		</Metadata>
+		<Metadata name="Enum.ТипДокументаОрганизации" id="029c736d-4f4b-4ef6-bab5-247019f0457c" configVersion="a178f0bb283b6d46a48e4cc97500796d00000000">
+			<Metadata name="Enum.ТипДокументаОрганизации.EnumValue.Паспорт" id="0bfd74e4-77a1-43d9-a786-a5d7d8c73e17"/>
+			<Metadata name="Enum.ТипДокументаОрганизации.EnumValue.Устав" id="24b973da-c5b4-43bb-a776-91913ffeab79"/>
 		</Metadata>
 		<Metadata name="Enum.ТипКомнатыРазмещения" id="bb60dfcc-a4ba-4c96-9400-0f64656c95ac" configVersion="cebfca1f6e94a74e840707290fafe71a00000000">
 			<Metadata name="Enum.ТипКомнатыРазмещения.EnumValue.Женская" id="216a3402-811e-420e-a0ed-c18b272ee829"/>

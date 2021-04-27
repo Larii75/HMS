@@ -203,7 +203,7 @@
 			<c>
 				<c>
 					<f>13</f>
-					<parameter>ФИО</parameter>
+					<parameter>ФИОГостя</parameter>
 				</c>
 			</c>
 			<c>
@@ -253,7 +253,7 @@
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Телефон для связи: [Телефон] Фирма:[Фирма]</v8:content>
+							<v8:content>Телефон для связи: [ТелефонГостя] Фирма:[Организатор]</v8:content>
 						</v8:item>
 					</tl>
 				</c>
