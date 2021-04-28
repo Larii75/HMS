@@ -32,6 +32,12 @@
 						<DataPath>Объект.Ref</DataPath>
 						<ExtendedTooltip name="ФормаРегистрНакопленияОборотыОтменыБронированияОткрытьПоРегистраторуРасширеннаяПодсказка" id="19"/>
 					</Button>
+					<Button name="ФормаРегистрНакопленияОборотыПредоставленныхСкидокОткрытьПоРегистратору" id="33">
+						<Type>CommandBarButton</Type>
+						<CommandName>AccumulationRegister.ОборотыПредоставленныхСкидок.StandardCommand.OpenByRecorder</CommandName>
+						<DataPath>Объект.Ref</DataPath>
+						<ExtendedTooltip name="ФормаРегистрНакопленияОборотыПредоставленныхСкидокОткрытьПоРегистраторуРасширеннаяПодсказка" id="34"/>
+					</Button>
 					<Button name="ФормаРегистрНакопленияОстаткиБронированияОткрытьПоРегистратору" id="20">
 						<Type>CommandBarButton</Type>
 						<CommandName>AccumulationRegister.ОстаткиБронирования.StandardCommand.OpenByRecorder</CommandName>
