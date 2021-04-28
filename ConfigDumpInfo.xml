@@ -159,8 +159,8 @@
 		</Metadata>
 		<Metadata name="Catalog.ГостиИОрганизаторы.Form.ФормаГруппы" id="664b0411-acce-4d49-af73-f6fd15a5b52c" configVersion="92243295ba8bc943b35b14de3760931e00000000"/>
 		<Metadata name="Catalog.ГостиИОрганизаторы.Form.ФормаГруппы.Form" id="664b0411-acce-4d49-af73-f6fd15a5b52c.0" configVersion="1d1ffe8e4e21cc44a345ae8d18ddf57f00000000"/>
-		<Metadata name="Catalog.ГостиИОрганизаторы.Form.ФормаЭлемента" id="7343dcc8-e36f-43e4-8e80-9231ed3f9320" configVersion="74fdbc6e98405b4382e45c6314b41c4600000000"/>
-		<Metadata name="Catalog.ГостиИОрганизаторы.Form.ФормаЭлемента.Form" id="7343dcc8-e36f-43e4-8e80-9231ed3f9320.0" configVersion="1deace4381bc944ea1bd8a425c6ecf3c00000000"/>
+		<Metadata name="Catalog.ГостиИОрганизаторы.Form.ФормаЭлемента" id="7343dcc8-e36f-43e4-8e80-9231ed3f9320" configVersion="90cf462dda6c354686dc8f9e7653456800000000"/>
+		<Metadata name="Catalog.ГостиИОрганизаторы.Form.ФормаЭлемента.Form" id="7343dcc8-e36f-43e4-8e80-9231ed3f9320.0" configVersion="0e7d320724592d49b958c4a0c146e65800000000"/>
 		<Metadata name="Catalog.ГостиИОрганизаторы.ObjectModule" id="49fdabe2-4985-4bbf-9292-50264dba8f21.0" configVersion="d520e6a2a30b794a8300fbc472c2e2d700000000"/>
 		<Metadata name="Catalog.КомнатыСредствРазмещения" id="bde080ad-0a95-4c1e-b7e3-7b32ec23a931" configVersion="95111910d45dd245b0991708f600860200000000">
 			<Metadata name="Catalog.КомнатыСредствРазмещения.Attribute.ТипКомнаты" id="72233bf2-92a8-4a13-bf52-9e160b673fa5"/>
