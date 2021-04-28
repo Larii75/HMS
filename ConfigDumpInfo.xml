@@ -214,8 +214,8 @@
 		<Metadata name="CommonModule.РегламентныеЗаданияСервер.Module" id="1a950273-4cfe-4cc9-9d37-0103700b8c8b.0" configVersion="96255972186a99428b51fac3cdcee0d900000000"/>
 		<Metadata name="CommonModule.СтандартныеПодсистемыСервер" id="79bb4f62-9280-454e-8e76-cc292c7daf2f" configVersion="d317d36f0e0f254d950ecf9d67899dcd00000000"/>
 		<Metadata name="CommonModule.СтандартныеПодсистемыСервер.Module" id="79bb4f62-9280-454e-8e76-cc292c7daf2f.0" configVersion="3f42611667a68149a82a74d86cb9e9e400000000"/>
-		<Metadata name="CommonModule.УсловноеОформлениеСервер" id="21ff1dc9-ea1b-49fa-97ab-543984ddd2ff" configVersion="a5fc41ecdfd6bc48b1b5078b5f608d9600000000"/>
-		<Metadata name="CommonModule.УсловноеОформлениеСервер.Module" id="21ff1dc9-ea1b-49fa-97ab-543984ddd2ff.0" configVersion="96c0ed52fb8670438f30a77b4a4f304e00000000"/>
+		<Metadata name="CommonModule.УсловноеОформлениеСервер" id="21ff1dc9-ea1b-49fa-97ab-543984ddd2ff" configVersion="acba207ac18cc343ac8a8737cdb2641800000000"/>
+		<Metadata name="CommonModule.УсловноеОформлениеСервер.Module" id="21ff1dc9-ea1b-49fa-97ab-543984ddd2ff.0" configVersion="510b3500321d2a40a680782cb789089300000000"/>
 		<Metadata name="CommonModule.ФункцииПримитивныеТипыКлиентСервер" id="bd9e944c-24de-4138-b430-b74a3b9fbfd1" configVersion="6050d85e881a0847bef2109d9a2e22bc00000000"/>
 		<Metadata name="CommonModule.ФункцииПримитивныеТипыКлиентСервер.Module" id="bd9e944c-24de-4138-b430-b74a3b9fbfd1.0" configVersion="702709e8357bbb4b994c7f72dcef358a00000000"/>
 		<Metadata name="CommonModule.ФункцииПримитивныеТипыСервер" id="4fdf38b2-12a6-4e3f-9ba3-c4727bbc806e" configVersion="d7419a80c010a4438f8cb134713bdf5400000000"/>
@@ -264,8 +264,8 @@
 		</Metadata>
 		<Metadata name="DataProcessor.ДоскаЗаказов.Form.ОперативноеБронирование" id="923a8db7-47fb-42d7-aa33-49335b50ea87" configVersion="110ed38ec717af44b9b08cae605523c400000000"/>
 		<Metadata name="DataProcessor.ДоскаЗаказов.Form.ОперативноеБронирование.Form" id="923a8db7-47fb-42d7-aa33-49335b50ea87.0" configVersion="5ac04aa9d1cfd5498a0f4267573a54ab00000000"/>
-		<Metadata name="DataProcessor.ДоскаЗаказов.Form.Форма" id="36b0ec21-9f7e-4ba1-96e4-0d14424c2d20" configVersion="f90c192f280fbc42b8ffcf555dce672100000000"/>
-		<Metadata name="DataProcessor.ДоскаЗаказов.Form.Форма.Form" id="36b0ec21-9f7e-4ba1-96e4-0d14424c2d20.0" configVersion="f6867b46d787014dbeeace963a6762ba00000000"/>
+		<Metadata name="DataProcessor.ДоскаЗаказов.Form.Форма" id="36b0ec21-9f7e-4ba1-96e4-0d14424c2d20" configVersion="fa21052b5948c7439924629b99ed4ca600000000"/>
+		<Metadata name="DataProcessor.ДоскаЗаказов.Form.Форма.Form" id="36b0ec21-9f7e-4ba1-96e4-0d14424c2d20.0" configVersion="f0c152a8a85aa14cba0fadb7324d8cfd00000000"/>
 		<Metadata name="DataProcessor.ДоскаЗаказов.ObjectModule" id="34771a68-3536-4de6-96c8-5d8f7e13e519.0" configVersion="df3050eec8f2bf4499fb681f0267784600000000"/>
 		<Metadata name="DataProcessor.ДоскаЗаказов.Template.ИсточникТаблицыЗначений" id="07e1ddb4-51f2-4ee2-9a6f-c43413c7634d" configVersion="8e456025dbff2b4fb1bca6bfba1d8a5100000000"/>
 		<Metadata name="DataProcessor.ДоскаЗаказов.Template.ИсточникТаблицыЗначений.Template" id="07e1ddb4-51f2-4ee2-9a6f-c43413c7634d.0" configVersion="3abb806c8efe7c44b7b175fd07aeaf3a00000000"/>
