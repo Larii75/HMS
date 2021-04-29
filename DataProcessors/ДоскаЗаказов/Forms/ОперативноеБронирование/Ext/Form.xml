@@ -27,58 +27,95 @@
 		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
-		<InputField name="МояОрганизация" id="5">
-			<DataPath>Объект.МояОрганизация</DataPath>
-			<ContextMenu name="МояОрганизацияКонтекстноеМеню" id="6"/>
-			<ExtendedTooltip name="МояОрганизацияРасширеннаяПодсказка" id="7"/>
-		</InputField>
-		<InputField name="СредствоРазмещения" id="8">
-			<DataPath>Объект.СредствоРазмещения</DataPath>
-			<ContextMenu name="СредствоРазмещенияКонтекстноеМеню" id="9"/>
-			<ExtendedTooltip name="СредствоРазмещенияРасширеннаяПодсказка" id="10"/>
-		</InputField>
-		<InputField name="ЭтажСредстваРазмещения" id="11">
-			<DataPath>Объект.ЭтажСредстваРазмещения</DataPath>
-			<ContextMenu name="ЭтажСредстваРазмещенияКонтекстноеМеню" id="12"/>
-			<ExtendedTooltip name="ЭтажСредстваРазмещенияРасширеннаяПодсказка" id="13"/>
-		</InputField>
-		<InputField name="Бронируюущий" id="14">
-			<DataPath>Объект.Бронирующий</DataPath>
-			<ContextMenu name="БронируюущийКонтекстноеМеню" id="15"/>
-			<ExtendedTooltip name="БронируюущийРасширеннаяПодсказка" id="16"/>
-		</InputField>
-		<InputField name="ВалютаДокумента" id="76">
-			<DataPath>Объект.ВалютаДокумента</DataPath>
-			<ContextMenu name="ВалютаДокументаКонтекстноеМеню" id="77"/>
-			<ExtendedTooltip name="ВалютаДокументаРасширеннаяПодсказка" id="78"/>
-		</InputField>
-		<InputField name="Начало" id="17">
-			<DataPath>Объект.Начало</DataPath>
-			<ContextMenu name="НачалоКонтекстноеМеню" id="18"/>
-			<ExtendedTooltip name="НачалоРасширеннаяПодсказка" id="19"/>
-		</InputField>
-		<LabelField name="МаксимальноеОкончание" id="70">
-			<DataPath>МаксимальнаяДатаОкончания</DataPath>
-			<ReadOnly>true</ReadOnly>
-			<ContextMenu name="МаксимальноеОкончаниеКонтекстноеМеню" id="71"/>
-			<ExtendedTooltip name="МаксимальноеОкончаниеРасширеннаяПодсказка" id="72"/>
-		</LabelField>
-		<InputField name="Окончание" id="20">
-			<DataPath>Объект.Окончание</DataPath>
-			<ContextMenu name="ОкончаниеКонтекстноеМеню" id="21"/>
-			<ExtendedTooltip name="ОкончаниеРасширеннаяПодсказка" id="22"/>
-		</InputField>
-		<InputField name="МыЗнаемКтоГости" id="110">
-			<DataPath>Объект.МыЗнаемКтоГость</DataPath>
-			<EditFormat>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>БЛ=Нет; БИ=Да</v8:content>
-				</v8:item>
-			</EditFormat>
-			<ContextMenu name="МыЗнаемКтоГостиКонтекстноеМеню" id="111"/>
-			<ExtendedTooltip name="МыЗнаемКтоГостиРасширеннаяПодсказка" id="112"/>
-		</InputField>
+		<UsualGroup name="Группа3" id="133">
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="134"/>
+			<ChildItems>
+				<UsualGroup name="Группа1" id="129">
+					<Group>Vertical</Group>
+					<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="130"/>
+					<ChildItems>
+						<InputField name="МояОрганизация" id="5">
+							<DataPath>Объект.МояОрганизация</DataPath>
+							<ContextMenu name="МояОрганизацияКонтекстноеМеню" id="6"/>
+							<ExtendedTooltip name="МояОрганизацияРасширеннаяПодсказка" id="7"/>
+						</InputField>
+						<InputField name="СредствоРазмещения" id="8">
+							<DataPath>Объект.СредствоРазмещения</DataPath>
+							<ContextMenu name="СредствоРазмещенияКонтекстноеМеню" id="9"/>
+							<ExtendedTooltip name="СредствоРазмещенияРасширеннаяПодсказка" id="10"/>
+						</InputField>
+						<InputField name="ЭтажСредстваРазмещения" id="11">
+							<DataPath>Объект.ЭтажСредстваРазмещения</DataPath>
+							<ContextMenu name="ЭтажСредстваРазмещенияКонтекстноеМеню" id="12"/>
+							<ExtendedTooltip name="ЭтажСредстваРазмещенияРасширеннаяПодсказка" id="13"/>
+						</InputField>
+						<InputField name="ВалютаДокумента" id="76">
+							<DataPath>Объект.ВалютаДокумента</DataPath>
+							<ContextMenu name="ВалютаДокументаКонтекстноеМеню" id="77"/>
+							<ExtendedTooltip name="ВалютаДокументаРасширеннаяПодсказка" id="78"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа2" id="131">
+					<Group>Vertical</Group>
+					<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="132"/>
+					<ChildItems>
+						<LabelField name="МаксимальноеОкончание" id="70">
+							<DataPath>МаксимальнаяДатаОкончания</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<ContextMenu name="МаксимальноеОкончаниеКонтекстноеМеню" id="71"/>
+							<ExtendedTooltip name="МаксимальноеОкончаниеРасширеннаяПодсказка" id="72"/>
+						</LabelField>
+						<CheckBoxField name="МыЗнаемКтоГости" id="110">
+							<DataPath>Объект.МыЗнаемКтоГость</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="МыЗнаемКтоГостиКонтекстноеМеню" id="111"/>
+							<ExtendedTooltip name="МыЗнаемКтоГостиРасширеннаяПодсказка" id="112"/>
+						</CheckBoxField>
+						<InputField name="Бронируюущий" id="14">
+							<DataPath>Объект.Бронирующий</DataPath>
+							<ContextMenu name="БронируюущийКонтекстноеМеню" id="15"/>
+							<ExtendedTooltip name="БронируюущийРасширеннаяПодсказка" id="16"/>
+						</InputField>
+						<UsualGroup name="ГруппаДата" id="125">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа дата</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа дата</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Width>17</Width>
+							<Group>AlwaysHorizontal</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаДатаРасширеннаяПодсказка" id="126"/>
+							<ChildItems>
+								<InputField name="ДатаНачала" id="119">
+									<DataPath>ДатаНачала</DataPath>
+									<Enabled>false</Enabled>
+									<ContextMenu name="ДатаНачалаКонтекстноеМеню" id="120"/>
+									<ExtendedTooltip name="ДатаНачалаРасширеннаяПодсказка" id="121"/>
+								</InputField>
+								<InputField name="ДатаОкончания" id="122">
+									<DataPath>ДатаОкончания</DataPath>
+									<ContextMenu name="ДатаОкончанияКонтекстноеМеню" id="123"/>
+									<ExtendedTooltip name="ДатаОкончанияРасширеннаяПодсказка" id="124"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
 		<LabelField name="МаксимальноеКоличествоМестначало" id="67">
 			<DataPath>МаксимальноеКоличествоМестВДатеНачала</DataPath>
 			<ReadOnly>true</ReadOnly>
@@ -86,6 +123,7 @@
 			<ExtendedTooltip name="МаксимальноеКоличествоМестначалоРасширеннаяПодсказка" id="69"/>
 		</LabelField>
 		<Table name="МестаРазмещения" id="23">
+			<HeightInTableRows>4</HeightInTableRows>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
 			<EnableStartDrag>true</EnableStartDrag>
 			<EnableDrag>true</EnableDrag>
@@ -137,6 +175,20 @@
 					<ContextMenu name="МестаРазмещенияМестоРазмещенияКонтекстноеМеню" id="43"/>
 					<ExtendedTooltip name="МестаРазмещенияМестоРазмещенияРасширеннаяПодсказка" id="44"/>
 				</InputField>
+				<InputField name="МестаРазмещенияДней" id="135">
+					<DataPath>Объект.МестаРазмещения.Дней</DataPath>
+					<ReadOnly>true</ReadOnly>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Значение устанавливается автоматически.</v8:content>
+						</v8:item>
+					</ToolTip>
+					<ToolTipRepresentation>Balloon</ToolTipRepresentation>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="МестаРазмещенияДнейКонтекстноеМеню" id="136"/>
+					<ExtendedTooltip name="МестаРазмещенияДнейРасширеннаяПодсказка" id="137"/>
+				</InputField>
 			</ChildItems>
 		</Table>
 		<LabelField name="МестаРазмещенияКоличествоСтрок" id="73">
@@ -161,68 +213,6 @@
 			<ContextMenu name="МестаРазмещенияКоличествоСтрокКонтекстноеМеню" id="74"/>
 			<ExtendedTooltip name="МестаРазмещенияКоличествоСтрокРасширеннаяПодсказка" id="75"/>
 		</LabelField>
-		<Table name="Гости" id="45">
-			<CommandBarLocation>None</CommandBarLocation>
-			<ChangeRowSet>false</ChangeRowSet>
-			<ChangeRowOrder>false</ChangeRowOrder>
-			<HeightInTableRows>2</HeightInTableRows>
-			<AutoInsertNewRow>true</AutoInsertNewRow>
-			<EnableStartDrag>true</EnableStartDrag>
-			<EnableDrag>true</EnableDrag>
-			<DataPath>Объект.Гости</DataPath>
-			<RowFilter xsi:nil="true"/>
-			<ContextMenu name="ГостиКонтекстноеМеню" id="46"/>
-			<AutoCommandBar name="ГостиКоманднаяПанель" id="47"/>
-			<ExtendedTooltip name="ГостиРасширеннаяПодсказка" id="48"/>
-			<SearchStringAddition name="ГостиСтрокаПоиска" id="49">
-				<AdditionSource>
-					<Item>Гости</Item>
-					<Type>SearchStringRepresentation</Type>
-				</AdditionSource>
-				<ContextMenu name="ГостиСтрокаПоискаКонтекстноеМеню" id="50"/>
-				<ExtendedTooltip name="ГостиСтрокаПоискаРасширеннаяПодсказка" id="51"/>
-			</SearchStringAddition>
-			<ViewStatusAddition name="ГостиСостояниеПросмотра" id="52">
-				<AdditionSource>
-					<Item>Гости</Item>
-					<Type>ViewStatusRepresentation</Type>
-				</AdditionSource>
-				<ContextMenu name="ГостиСостояниеПросмотраКонтекстноеМеню" id="53"/>
-				<ExtendedTooltip name="ГостиСостояниеПросмотраРасширеннаяПодсказка" id="54"/>
-			</ViewStatusAddition>
-			<SearchControlAddition name="ГостиУправлениеПоиском" id="55">
-				<AdditionSource>
-					<Item>Гости</Item>
-					<Type>SearchControl</Type>
-				</AdditionSource>
-				<ContextMenu name="ГостиУправлениеПоискомКонтекстноеМеню" id="56"/>
-				<ExtendedTooltip name="ГостиУправлениеПоискомРасширеннаяПодсказка" id="57"/>
-			</SearchControlAddition>
-			<ChildItems>
-				<LabelField name="ГостиНомерСтроки" id="58">
-					<DataPath>Объект.Гости.LineNumber</DataPath>
-					<Visible>false</Visible>
-					<ReadOnly>true</ReadOnly>
-					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="ГостиНомерСтрокиКонтекстноеМеню" id="59"/>
-					<ExtendedTooltip name="ГостиНомерСтрокиРасширеннаяПодсказка" id="60"/>
-				</LabelField>
-				<InputField name="ГостиГость" id="61">
-					<DataPath>Объект.Гости.Гость</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="ГостиГостьКонтекстноеМеню" id="62"/>
-					<ExtendedTooltip name="ГостиГостьРасширеннаяПодсказка" id="63"/>
-				</InputField>
-				<InputField name="ГостиМестоРазмещения" id="64">
-					<DataPath>Объект.Гости.МестоРазмещения</DataPath>
-					<Visible>false</Visible>
-					<ReadOnly>true</ReadOnly>
-					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="ГостиМестоРазмещенияКонтекстноеМеню" id="65"/>
-					<ExtendedTooltip name="ГостиМестоРазмещенияРасширеннаяПодсказка" id="66"/>
-				</InputField>
-			</ChildItems>
-		</Table>
 		<Table name="Стоимость" id="79">
 			<CommandBarLocation>None</CommandBarLocation>
 			<ChangeRowSet>false</ChangeRowSet>
@@ -300,6 +290,89 @@
 				</InputField>
 			</ChildItems>
 		</Table>
+		<UsualGroup name="ГруппаГости" id="127">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа гости</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа гости</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<Behavior>Collapsible</Behavior>
+			<Collapsed>true</Collapsed>
+			<Representation>StrongSeparation</Representation>
+			<ExtendedTooltip name="ГруппаГостиРасширеннаяПодсказка" id="128"/>
+			<ChildItems>
+				<Table name="Гости" id="45">
+					<CommandBarLocation>None</CommandBarLocation>
+					<ChangeRowSet>false</ChangeRowSet>
+					<ChangeRowOrder>false</ChangeRowOrder>
+					<HeightInTableRows>2</HeightInTableRows>
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>Объект.Гости</DataPath>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="ГостиКонтекстноеМеню" id="46"/>
+					<AutoCommandBar name="ГостиКоманднаяПанель" id="47"/>
+					<ExtendedTooltip name="ГостиРасширеннаяПодсказка" id="48"/>
+					<SearchStringAddition name="ГостиСтрокаПоиска" id="49">
+						<AdditionSource>
+							<Item>Гости</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ГостиСтрокаПоискаКонтекстноеМеню" id="50"/>
+						<ExtendedTooltip name="ГостиСтрокаПоискаРасширеннаяПодсказка" id="51"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="ГостиСостояниеПросмотра" id="52">
+						<AdditionSource>
+							<Item>Гости</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ГостиСостояниеПросмотраКонтекстноеМеню" id="53"/>
+						<ExtendedTooltip name="ГостиСостояниеПросмотраРасширеннаяПодсказка" id="54"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="ГостиУправлениеПоиском" id="55">
+						<AdditionSource>
+							<Item>Гости</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="ГостиУправлениеПоискомКонтекстноеМеню" id="56"/>
+						<ExtendedTooltip name="ГостиУправлениеПоискомРасширеннаяПодсказка" id="57"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<LabelField name="ГостиНомерСтроки" id="58">
+							<DataPath>Объект.Гости.LineNumber</DataPath>
+							<Visible>false</Visible>
+							<ReadOnly>true</ReadOnly>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ГостиНомерСтрокиКонтекстноеМеню" id="59"/>
+							<ExtendedTooltip name="ГостиНомерСтрокиРасширеннаяПодсказка" id="60"/>
+						</LabelField>
+						<InputField name="ГостиГость" id="61">
+							<DataPath>Объект.Гости.Гость</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ГостиГостьКонтекстноеМеню" id="62"/>
+							<ExtendedTooltip name="ГостиГостьРасширеннаяПодсказка" id="63"/>
+						</InputField>
+						<InputField name="ГостиМестоРазмещения" id="64">
+							<DataPath>Объект.Гости.МестоРазмещения</DataPath>
+							<Visible>false</Visible>
+							<ReadOnly>true</ReadOnly>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ГостиМестоРазмещенияКонтекстноеМеню" id="65"/>
+							<ExtendedTooltip name="ГостиМестоРазмещенияРасширеннаяПодсказка" id="66"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
 		<LabelField name="СтоимостьИтогСуммаСоСкидкой" id="107">
 			<DataPath>Объект.Стоимость.TotalСуммаСоСкидкой</DataPath>
 			<ReadOnly>true</ReadOnly>
@@ -350,6 +423,28 @@
 					<v8:FractionDigits>0</v8:FractionDigits>
 					<v8:AllowedSign>Nonnegative</v8:AllowedSign>
 				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ДатаОкончания" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата окончания</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:StandardBeginningDate</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ДатаНачала" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дата начала</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:StandardBeginningDate</v8:Type>
 			</Type>
 		</Attribute>
 	</Attributes>

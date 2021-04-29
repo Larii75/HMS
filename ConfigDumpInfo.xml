@@ -241,7 +241,7 @@
 		<Metadata name="Constant.ВариантОтменыБронирования" id="d9e5c435-f92e-42be-930c-b5e82933a078" configVersion="b6cfe8753debaa4b9df80bafdee24af500000000"/>
 		<Metadata name="Constant.ДнейОжиданияЗаселения" id="aec1db5d-8054-4970-aafa-f01da60cfe52" configVersion="2f111c1a136bcd40b13f4f2a75cd330d00000000"/>
 		<Metadata name="Constant.ОрганизацияПоУмолчанию" id="674786d6-427d-47bd-85d7-451799671c55" configVersion="f2db6b2aea98f74d92c742e29894c0ff00000000"/>
-		<Metadata name="DataProcessor.ДоскаЗаказов" id="34771a68-3536-4de6-96c8-5d8f7e13e519" configVersion="316dab63a7160944a2a6ab8f093d506d00000000">
+		<Metadata name="DataProcessor.ДоскаЗаказов" id="34771a68-3536-4de6-96c8-5d8f7e13e519" configVersion="1198071b855e87469a8f62c5f762b2e900000000">
 			<Metadata name="DataProcessor.ДоскаЗаказов.TabularSection.Стоимость.Attribute.СуммаСоСкидкой" id="399d6eea-f1cd-491f-9404-fc450c71ae6e"/>
 			<Metadata name="DataProcessor.ДоскаЗаказов.Attribute.МояОрганизация" id="4d25e786-0356-444c-903b-440e91eacadd"/>
 			<Metadata name="DataProcessor.ДоскаЗаказов.Attribute.ВалютаДокумента" id="7543f558-bc33-49e9-8c21-58e161f0ab00"/>
@@ -259,11 +259,12 @@
 			<Metadata name="DataProcessor.ДоскаЗаказов.Attribute.Начало" id="ee2323e1-0672-4f10-816e-37b6f3c7c893"/>
 			<Metadata name="DataProcessor.ДоскаЗаказов.TabularSection.Стоимость.Attribute.МестоРазмещения" id="f04dcfea-4b9e-4805-8345-e109684756bd"/>
 			<Metadata name="DataProcessor.ДоскаЗаказов.Attribute.Бронирующий" id="f4e4658d-3d1a-4a3e-a56d-f92217f798f1"/>
+			<Metadata name="DataProcessor.ДоскаЗаказов.TabularSection.МестаРазмещения.Attribute.Дней" id="f6f37597-7a86-49f4-9b97-367e4f9de1d9"/>
 			<Metadata name="DataProcessor.ДоскаЗаказов.Attribute.Окончание" id="ff3a5bdc-442e-412c-9fdb-ea2433ff57b9"/>
 			<Metadata name="DataProcessor.ДоскаЗаказов.Attribute.МыЗнаемКтоГость" id="ff6e260c-ae73-4238-822b-96a071aaba95"/>
 		</Metadata>
-		<Metadata name="DataProcessor.ДоскаЗаказов.Form.ОперативноеБронирование" id="923a8db7-47fb-42d7-aa33-49335b50ea87" configVersion="a0a07fc25d6af949ab4e5bad580c87f800000000"/>
-		<Metadata name="DataProcessor.ДоскаЗаказов.Form.ОперативноеБронирование.Form" id="923a8db7-47fb-42d7-aa33-49335b50ea87.0" configVersion="c9c3c12b5d3cf348a24ee81ef28ef22b00000000"/>
+		<Metadata name="DataProcessor.ДоскаЗаказов.Form.ОперативноеБронирование" id="923a8db7-47fb-42d7-aa33-49335b50ea87" configVersion="c785c513d9a12746b045fb447145465800000000"/>
+		<Metadata name="DataProcessor.ДоскаЗаказов.Form.ОперативноеБронирование.Form" id="923a8db7-47fb-42d7-aa33-49335b50ea87.0" configVersion="885d8a6884791249800aa3c30530f65500000000"/>
 		<Metadata name="DataProcessor.ДоскаЗаказов.Form.Форма" id="36b0ec21-9f7e-4ba1-96e4-0d14424c2d20" configVersion="e1918877f4bb604f9b97536727a90cea00000000"/>
 		<Metadata name="DataProcessor.ДоскаЗаказов.Form.Форма.Form" id="36b0ec21-9f7e-4ba1-96e4-0d14424c2d20.0" configVersion="25199234866b3a43b87c49ad937bb30f00000000"/>
 		<Metadata name="DataProcessor.ДоскаЗаказов.ObjectModule" id="34771a68-3536-4de6-96c8-5d8f7e13e519.0" configVersion="8affde5593cbfb4baefacdce0f63b9c800000000"/>
@@ -273,7 +274,7 @@
 		<Metadata name="DefinedType.ДенежныйТип" id="a07ae8e5-98c7-457e-9c39-c7cc4cf4e747" configVersion="a2be70472677964f8eb7911131e7d8fa00000000"/>
 		<Metadata name="DefinedType.Комментарий" id="569e96e0-1880-44e5-be81-edbe9c49da0c" configVersion="6d7b8cd384cc214e8f3086a957950fba00000000"/>
 		<Metadata name="DefinedType.Организация" id="c550304d-2790-430a-837c-61e114fe5bd7" configVersion="d8f93858e4b421418808a69f232dcf0700000000"/>
-		<Metadata name="Document.Бронирование" id="24ebed6e-fe7f-44a9-afbc-32dc6ef5d75f" configVersion="879a2825b41f0c4d8875cd54caf3c87c00000000">
+		<Metadata name="Document.Бронирование" id="24ebed6e-fe7f-44a9-afbc-32dc6ef5d75f" configVersion="db9a5d8449140a43bf74658e6afe1c8a00000000">
 			<Metadata name="Document.Бронирование.TabularSection.МестаРазмещения.Attribute.СкидкаВВалютеДокумента" id="077644db-fcdf-41fb-8d1b-6fa1cbd6fb99"/>
 			<Metadata name="Document.Бронирование.TabularSection.МестаРазмещения" id="0f72de13-8305-4430-8945-8ec96de50821"/>
 			<Metadata name="Document.Бронирование.Attribute.ЭтажРазмещения" id="23408083-4881-4919-8914-c8fd42bec489"/>
@@ -299,9 +300,9 @@
 			<Metadata name="Document.Бронирование.TabularSection.МестаРазмещения.Attribute.ЦенаВВалютеУчета" id="eee884cd-5816-4a04-8dcb-e5e5611f16a2"/>
 			<Metadata name="Document.Бронирование.Attribute.Комментарий" id="fa90867b-7970-4cda-9644-d985b76c135f"/>
 		</Metadata>
-		<Metadata name="Document.Бронирование.Form.ФормаДокумента" id="81888e41-6ac2-4ee4-85b0-bd03a157e6cb" configVersion="46171e9451418948b1f6a3250753cdc200000000"/>
-		<Metadata name="Document.Бронирование.Form.ФормаДокумента.Form" id="81888e41-6ac2-4ee4-85b0-bd03a157e6cb.0" configVersion="793e5256383b0d43b33c5c7ad6064f7900000000"/>
-		<Metadata name="Document.Бронирование.ObjectModule" id="24ebed6e-fe7f-44a9-afbc-32dc6ef5d75f.0" configVersion="9b0f17951110df408f40c231c885e46400000000"/>
+		<Metadata name="Document.Бронирование.Form.ФормаДокумента" id="81888e41-6ac2-4ee4-85b0-bd03a157e6cb" configVersion="de39955c31a19e4f9a0bcaf32b82335d00000000"/>
+		<Metadata name="Document.Бронирование.Form.ФормаДокумента.Form" id="81888e41-6ac2-4ee4-85b0-bd03a157e6cb.0" configVersion="e6e5dc91ea43d34cafc3bd1d13cc990500000000"/>
+		<Metadata name="Document.Бронирование.ObjectModule" id="24ebed6e-fe7f-44a9-afbc-32dc6ef5d75f.0" configVersion="8184447eb5f1774280e01a4dd6c033dd00000000"/>
 		<Metadata name="Document.ВводВыводМестРазмещения" id="ccd798f8-c6d1-4f5a-9053-8b03cf5d571e" configVersion="a9fc8149f47d2642afa68cca169f04ff00000000">
 			<Metadata name="Document.ВводВыводМестРазмещения.TabularSection.ТЧМестаРазмещения.Attribute.МестоРазмещения" id="5843bf7b-3fdb-4dec-a95c-9dcc8f422041"/>
 			<Metadata name="Document.ВводВыводМестРазмещения.Attribute.СредствоРазмещения" id="907af4f2-fedc-4c13-ade4-c4ce7e2d0ca0"/>
