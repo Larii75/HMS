@@ -273,7 +273,7 @@
 		<Metadata name="DefinedType.ДенежныйТип" id="a07ae8e5-98c7-457e-9c39-c7cc4cf4e747" configVersion="4cc6638077ca434ebf6badba80cb722400000000"/>
 		<Metadata name="DefinedType.Комментарий" id="569e96e0-1880-44e5-be81-edbe9c49da0c" configVersion="17a352f3112a5e4a883fa21d00e75e8a00000000"/>
 		<Metadata name="DefinedType.Организация" id="c550304d-2790-430a-837c-61e114fe5bd7" configVersion="70111dc9dd95e146afd4db673a9ef3ae00000000"/>
-		<Metadata name="Document.Бронирование" id="24ebed6e-fe7f-44a9-afbc-32dc6ef5d75f" configVersion="c0ae74afc03b0b4ba777f126bd62c21300000000">
+		<Metadata name="Document.Бронирование" id="24ebed6e-fe7f-44a9-afbc-32dc6ef5d75f" configVersion="d12348a33620a8418d3b06a720d0593000000000">
 			<Metadata name="Document.Бронирование.TabularSection.МестаРазмещения.Attribute.СкидкаВВалютеДокумента" id="077644db-fcdf-41fb-8d1b-6fa1cbd6fb99"/>
 			<Metadata name="Document.Бронирование.TabularSection.МестаРазмещения" id="0f72de13-8305-4430-8945-8ec96de50821"/>
 			<Metadata name="Document.Бронирование.Attribute.ЭтажРазмещения" id="23408083-4881-4919-8914-c8fd42bec489"/>
@@ -301,7 +301,7 @@
 		</Metadata>
 		<Metadata name="Document.Бронирование.Form.ФормаДокумента" id="81888e41-6ac2-4ee4-85b0-bd03a157e6cb" configVersion="ffa1450eec831c43b4cd90cff1c7614e00000000"/>
 		<Metadata name="Document.Бронирование.Form.ФормаДокумента.Form" id="81888e41-6ac2-4ee4-85b0-bd03a157e6cb.0" configVersion="b1998c01a74d7348accbd9f55d01f9db00000000"/>
-		<Metadata name="Document.Бронирование.ObjectModule" id="24ebed6e-fe7f-44a9-afbc-32dc6ef5d75f.0" configVersion="de7541a08fa0d4479551d2d607bb17e400000000"/>
+		<Metadata name="Document.Бронирование.ObjectModule" id="24ebed6e-fe7f-44a9-afbc-32dc6ef5d75f.0" configVersion="30634b0caf0b3e4ab5646d9d075c95b500000000"/>
 		<Metadata name="Document.ВводВыводМестРазмещения" id="ccd798f8-c6d1-4f5a-9053-8b03cf5d571e" configVersion="f211de585e866349871b2bd0c01e33b100000000">
 			<Metadata name="Document.ВводВыводМестРазмещения.TabularSection.ТЧМестаРазмещения.Attribute.МестоРазмещения" id="5843bf7b-3fdb-4dec-a95c-9dcc8f422041"/>
 			<Metadata name="Document.ВводВыводМестРазмещения.Attribute.СредствоРазмещения" id="907af4f2-fedc-4c13-ade4-c4ce7e2d0ca0"/>
