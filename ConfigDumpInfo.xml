@@ -67,7 +67,7 @@
 			<Metadata name="AccumulationRegister.ОборотыПредоставленныхСкидок.Dimension.ВалютаУчета" id="b02a8aac-45cf-4bca-865f-d1cccc293e3a"/>
 			<Metadata name="AccumulationRegister.ОборотыПредоставленныхСкидок.Resource.СуммаСкидки" id="b70e3a38-1e6b-44bc-a836-9b9c4041d1ba"/>
 		</Metadata>
-		<Metadata name="AccumulationRegister.ОстаткиБронирования" id="828f84b9-1ea6-411a-bcf0-0f1d60eaea05" configVersion="8e99573b7fd48f4390a20b18b0ec5ad500000000">
+		<Metadata name="AccumulationRegister.ОстаткиБронирования" id="828f84b9-1ea6-411a-bcf0-0f1d60eaea05" configVersion="ca079fddca5c9a49a1b9bc12647bb18700000000">
 			<Metadata name="AccumulationRegister.ОстаткиБронирования.Dimension.Событие" id="254613b2-6b87-4ea1-b722-8ec7ae79b015"/>
 			<Metadata name="AccumulationRegister.ОстаткиБронирования.Resource.Количество" id="4fa26583-57d2-4d54-87f8-239149d45018"/>
 			<Metadata name="AccumulationRegister.ОстаткиБронирования.Dimension.СредствоРазмещения" id="5d57bce9-30f2-4a38-b0d0-5258faeeb4cc"/>
@@ -273,7 +273,7 @@
 		<Metadata name="DefinedType.ДенежныйТип" id="a07ae8e5-98c7-457e-9c39-c7cc4cf4e747" configVersion="a2be70472677964f8eb7911131e7d8fa00000000"/>
 		<Metadata name="DefinedType.Комментарий" id="569e96e0-1880-44e5-be81-edbe9c49da0c" configVersion="6d7b8cd384cc214e8f3086a957950fba00000000"/>
 		<Metadata name="DefinedType.Организация" id="c550304d-2790-430a-837c-61e114fe5bd7" configVersion="d8f93858e4b421418808a69f232dcf0700000000"/>
-		<Metadata name="Document.Бронирование" id="24ebed6e-fe7f-44a9-afbc-32dc6ef5d75f" configVersion="081ebe73b855384d95c8aac88815880200000000">
+		<Metadata name="Document.Бронирование" id="24ebed6e-fe7f-44a9-afbc-32dc6ef5d75f" configVersion="24192635725dad469c030cbd46a2bc1200000000">
 			<Metadata name="Document.Бронирование.TabularSection.МестаРазмещения.Attribute.СкидкаВВалютеДокумента" id="077644db-fcdf-41fb-8d1b-6fa1cbd6fb99"/>
 			<Metadata name="Document.Бронирование.TabularSection.МестаРазмещения" id="0f72de13-8305-4430-8945-8ec96de50821"/>
 			<Metadata name="Document.Бронирование.Attribute.ЭтажРазмещения" id="23408083-4881-4919-8914-c8fd42bec489"/>
@@ -301,7 +301,7 @@
 		</Metadata>
 		<Metadata name="Document.Бронирование.Form.ФормаДокумента" id="81888e41-6ac2-4ee4-85b0-bd03a157e6cb" configVersion="880b660bce5b204b91b213e0646d15f900000000"/>
 		<Metadata name="Document.Бронирование.Form.ФормаДокумента.Form" id="81888e41-6ac2-4ee4-85b0-bd03a157e6cb.0" configVersion="2dfc66aa8784f043a3bf9a1b56141c0c00000000"/>
-		<Metadata name="Document.Бронирование.ObjectModule" id="24ebed6e-fe7f-44a9-afbc-32dc6ef5d75f.0" configVersion="f19ac2691204c646aafa2426b97097c900000000"/>
+		<Metadata name="Document.Бронирование.ObjectModule" id="24ebed6e-fe7f-44a9-afbc-32dc6ef5d75f.0" configVersion="d0ce1cef810a9d478ac330cdc8bac72d00000000"/>
 		<Metadata name="Document.ВводВыводМестРазмещения" id="ccd798f8-c6d1-4f5a-9053-8b03cf5d571e" configVersion="a9fc8149f47d2642afa68cca169f04ff00000000">
 			<Metadata name="Document.ВводВыводМестРазмещения.TabularSection.ТЧМестаРазмещения.Attribute.МестоРазмещения" id="5843bf7b-3fdb-4dec-a95c-9dcc8f422041"/>
 			<Metadata name="Document.ВводВыводМестРазмещения.Attribute.СредствоРазмещения" id="907af4f2-fedc-4c13-ade4-c4ce7e2d0ca0"/>
@@ -388,7 +388,7 @@
 		<Metadata name="Document.ОтменаБронирования.Form.ФормаДокумента" id="06e6e62c-7444-4abe-ac39-95b8784c2885" configVersion="152a4d166b311f42ac367f0b53081c2a00000000"/>
 		<Metadata name="Document.ОтменаБронирования.Form.ФормаДокумента.Form" id="06e6e62c-7444-4abe-ac39-95b8784c2885.0" configVersion="8738ec96dd88b840b28b2166ac4aa96600000000"/>
 		<Metadata name="Document.ОтменаБронирования.ObjectModule" id="40a0ce57-a55c-4a16-8355-8568e8a5472e.0" configVersion="fe3a626726401b47b4c8ae657e0e750800000000"/>
-		<Metadata name="Document.ПоступлениеДенежныхСредств" id="93294e53-15a3-4224-8cb6-8571ef8d8be7" configVersion="34437920834d284c958e08ec2c24039a00000000">
+		<Metadata name="Document.ПоступлениеДенежныхСредств" id="93294e53-15a3-4224-8cb6-8571ef8d8be7" configVersion="0873f5e552c8ab4cab2cc1ebb513675900000000">
 			<Metadata name="Document.ПоступлениеДенежныхСредств.Attribute.ВалютаДокумента" id="3e234f48-3353-4526-b017-e0a36ab1dda8"/>
 			<Metadata name="Document.ПоступлениеДенежныхСредств.Attribute.ВидРасчетов" id="4063c5f9-baa8-4d0c-b587-b3358be4f30e"/>
 			<Metadata name="Document.ПоступлениеДенежныхСредств.Attribute.ГостьИлиОрганизатор" id="5d5436ed-d41f-4a94-be48-72fe1d9a41ee"/>
@@ -403,7 +403,7 @@
 		</Metadata>
 		<Metadata name="Document.ПоступлениеДенежныхСредств.Form.ФормаДокумента" id="b77dde22-a095-401c-8584-087a88823fb8" configVersion="a60557366b453944b1bf6e297cab49c500000000"/>
 		<Metadata name="Document.ПоступлениеДенежныхСредств.Form.ФормаДокумента.Form" id="b77dde22-a095-401c-8584-087a88823fb8.0" configVersion="fda915f5e1bbcb44a2e0e105edce4f1e00000000"/>
-		<Metadata name="Document.ПоступлениеДенежныхСредств.ObjectModule" id="93294e53-15a3-4224-8cb6-8571ef8d8be7.0" configVersion="134f6d8a892d5446abe9f61d56ab1dce00000000"/>
+		<Metadata name="Document.ПоступлениеДенежныхСредств.ObjectModule" id="93294e53-15a3-4224-8cb6-8571ef8d8be7.0" configVersion="5a987af20a84a34698bfdfb080a0db2c00000000"/>
 		<Metadata name="Document.РасходДенежныхСредств" id="16cdad9c-5895-4708-bc53-851d4692187b" configVersion="be8bebe0f991824281a597670b66b53f00000000">
 			<Metadata name="Document.РасходДенежныхСредств.Attribute.МояОрганизация" id="44a54636-8cd9-48c8-b840-d74fdd49a45f"/>
 			<Metadata name="Document.РасходДенежныхСредств.Attribute.Ответственный" id="82a49f23-95c3-4c91-b0b5-6e4e1325f23d"/>

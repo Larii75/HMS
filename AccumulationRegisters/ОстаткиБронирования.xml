@@ -46,7 +46,12 @@
 			<EnableTotalsSplitting>true</EnableTotalsSplitting>
 			<ListPresentation/>
 			<ExtendedListPresentation/>
-			<Explanation/>
+			<Explanation>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Регистр для шахматки по брони</v8:content>
+				</v8:item>
+			</Explanation>
 		</Properties>
 		<ChildObjects>
 			<Resource uuid="4fa26583-57d2-4d54-87f8-239149d45018">
