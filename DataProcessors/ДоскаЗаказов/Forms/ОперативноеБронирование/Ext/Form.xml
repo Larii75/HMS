@@ -90,10 +90,10 @@
 								<Event name="OnChange">МыЗнаемКтоГостьПриИзменении</Event>
 							</Events>
 						</CheckBoxField>
-						<InputField name="Бронируюущий" id="14">
+						<InputField name="Бронирующий" id="14">
 							<DataPath>Объект.Бронирующий</DataPath>
-							<ContextMenu name="БронируюущийКонтекстноеМеню" id="15"/>
-							<ExtendedTooltip name="БронируюущийРасширеннаяПодсказка" id="16"/>
+							<ContextMenu name="БронирующийКонтекстноеМеню" id="15"/>
+							<ExtendedTooltip name="БронирующийРасширеннаяПодсказка" id="16"/>
 							<Events>
 								<Event name="OnChange">БронируюущийПриИзменении</Event>
 							</Events>
@@ -145,6 +145,7 @@
 		</LabelField>
 		<Table name="МестаРазмещения" id="23">
 			<HeightInTableRows>4</HeightInTableRows>
+			<Footer>true</Footer>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
 			<EnableStartDrag>true</EnableStartDrag>
 			<EnableDrag>true</EnableDrag>
@@ -184,6 +185,15 @@
 				<LabelField name="МестаРазмещенияНомерСтроки" id="36">
 					<DataPath>Объект.МестаРазмещения.LineNumber</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<FooterDataPath>Объект.МестаРазмещения.RowsCount</FooterDataPath>
+					<FooterText>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Итого мест</v8:content>
+						</v8:item>
+					</FooterText>
+					<FooterFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<FooterHorizontalAlign>Left</FooterHorizontalAlign>
 					<ContextMenu name="МестаРазмещенияНомерСтрокиКонтекстноеМеню" id="37"/>
 					<ExtendedTooltip name="МестаРазмещенияНомерСтрокиРасширеннаяПодсказка" id="38"/>
 				</LabelField>
@@ -215,33 +225,12 @@
 				</InputField>
 			</ChildItems>
 		</Table>
-		<LabelField name="МестаРазмещенияКоличествоСтрок" id="73">
-			<DataPath>Объект.МестаРазмещения.RowsCount</DataPath>
-			<ReadOnly>true</ReadOnly>
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Итого мест</v8:content>
-				</v8:item>
-			</Title>
-			<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
-			<TitleLocation>Right</TitleLocation>
-			<Width>1</Width>
-			<Format>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>ЧН=0</v8:content>
-				</v8:item>
-			</Format>
-			<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
-			<ContextMenu name="МестаРазмещенияКоличествоСтрокКонтекстноеМеню" id="74"/>
-			<ExtendedTooltip name="МестаРазмещенияКоличествоСтрокРасширеннаяПодсказка" id="75"/>
-		</LabelField>
 		<Table name="Стоимость" id="79">
 			<CommandBarLocation>None</CommandBarLocation>
 			<ChangeRowSet>false</ChangeRowSet>
 			<ChangeRowOrder>false</ChangeRowOrder>
 			<HeightInTableRows>2</HeightInTableRows>
+			<Footer>true</Footer>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
 			<EnableStartDrag>true</EnableStartDrag>
 			<EnableDrag>true</EnableDrag>
@@ -308,31 +297,26 @@
 				<InputField name="СтоимостьСуммаСоСкидкой" id="104">
 					<DataPath>Объект.Стоимость.СуммаСоСкидкой</DataPath>
 					<EditMode>EnterOnInput</EditMode>
+					<FooterDataPath>Объект.Стоимость.TotalСуммаСоСкидкой</FooterDataPath>
+					<FooterText>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сумма Итог</v8:content>
+						</v8:item>
+					</FooterText>
+					<FooterFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+					<FooterHorizontalAlign>Left</FooterHorizontalAlign>
 					<Width>11</Width>
 					<ContextMenu name="СтоимостьСуммаСоСкидкойКонтекстноеМеню" id="105"/>
 					<ExtendedTooltip name="СтоимостьСуммаСоСкидкойРасширеннаяПодсказка" id="106"/>
 				</InputField>
 			</ChildItems>
 		</Table>
-		<LabelField name="СтоимостьИтогСуммаСоСкидкой" id="107">
-			<DataPath>Объект.Стоимость.TotalСуммаСоСкидкой</DataPath>
-			<ReadOnly>true</ReadOnly>
-			<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
-			<Format>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>ЧДЦ=2; ЧРД=.; ЧН=0.00</v8:content>
-				</v8:item>
-			</Format>
-			<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
-			<ContextMenu name="СтоимостьИтогСуммаСоСкидкойКонтекстноеМеню" id="108"/>
-			<ExtendedTooltip name="СтоимостьИтогСуммаСоСкидкойРасширеннаяПодсказка" id="109"/>
-		</LabelField>
 		<UsualGroup name="ГруппаГости" id="127">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Гости</v8:content>
+					<v8:content>Нажмите для выбора гостей</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
@@ -352,6 +336,7 @@
 					<ChangeRowSet>false</ChangeRowSet>
 					<ChangeRowOrder>false</ChangeRowOrder>
 					<HeightInTableRows>2</HeightInTableRows>
+					<Footer>true</Footer>
 					<AutoInsertNewRow>true</AutoInsertNewRow>
 					<EnableStartDrag>true</EnableStartDrag>
 					<EnableDrag>true</EnableDrag>
@@ -390,6 +375,15 @@
 							<Visible>false</Visible>
 							<ReadOnly>true</ReadOnly>
 							<EditMode>EnterOnInput</EditMode>
+							<FooterDataPath>Объект.Гости.RowsCount</FooterDataPath>
+							<FooterText>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Итого гостей</v8:content>
+								</v8:item>
+							</FooterText>
+							<FooterFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+							<FooterHorizontalAlign>Left</FooterHorizontalAlign>
 							<ContextMenu name="ГостиНомерСтрокиКонтекстноеМеню" id="59"/>
 							<ExtendedTooltip name="ГостиНомерСтрокиРасширеннаяПодсказка" id="60"/>
 						</LabelField>
