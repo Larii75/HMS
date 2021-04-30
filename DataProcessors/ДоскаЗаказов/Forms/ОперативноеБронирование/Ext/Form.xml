@@ -81,11 +81,14 @@
 							<ContextMenu name="МаксимальноеОкончаниеКонтекстноеМеню" id="71"/>
 							<ExtendedTooltip name="МаксимальноеОкончаниеРасширеннаяПодсказка" id="72"/>
 						</LabelField>
-						<CheckBoxField name="МыЗнаемКтоГости" id="110">
+						<CheckBoxField name="МыЗнаемКтоГость" id="110">
 							<DataPath>Объект.МыЗнаемКтоГость</DataPath>
 							<CheckBoxType>Auto</CheckBoxType>
-							<ContextMenu name="МыЗнаемКтоГостиКонтекстноеМеню" id="111"/>
-							<ExtendedTooltip name="МыЗнаемКтоГостиРасширеннаяПодсказка" id="112"/>
+							<ContextMenu name="МыЗнаемКтоГостьКонтекстноеМеню" id="111"/>
+							<ExtendedTooltip name="МыЗнаемКтоГостьРасширеннаяПодсказка" id="112"/>
+							<Events>
+								<Event name="OnChange">МыЗнаемКтоГостьПриИзменении</Event>
+							</Events>
 						</CheckBoxField>
 						<InputField name="Бронируюущий" id="14">
 							<DataPath>Объект.Бронирующий</DataPath>
@@ -329,7 +332,7 @@
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Группа гости</v8:content>
+					<v8:content>Гости</v8:content>
 				</v8:item>
 			</Title>
 			<ToolTip>
