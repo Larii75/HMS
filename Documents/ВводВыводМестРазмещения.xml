@@ -348,7 +348,7 @@
 				<ChildObjects>
 					<Attribute uuid="adce74b4-802c-4eea-a84a-c1a8f198cb70">
 						<Properties>
-							<Name>КомнатаМестаРазмещения</Name>
+							<Name>КомнатаСредстваРазмещения</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
@@ -417,7 +417,7 @@
 							<ChoiceParameterLinks>
 								<xr:Link>
 									<xr:Name>Отбор.Владелец</xr:Name>
-									<xr:DataPath xsi:type="xs:string">Document.ВводВыводМестРазмещения.TabularSection.ТЧМестаРазмещения.Attribute.КомнатаМестаРазмещения</xr:DataPath>
+									<xr:DataPath xsi:type="xs:string">Document.ВводВыводМестРазмещения.TabularSection.ТЧМестаРазмещения.Attribute.КомнатаСредстваРазмещения</xr:DataPath>
 									<xr:ValueChange>Clear</xr:ValueChange>
 								</xr:Link>
 							</ChoiceParameterLinks>

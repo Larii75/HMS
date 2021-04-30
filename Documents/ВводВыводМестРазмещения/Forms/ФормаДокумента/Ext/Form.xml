@@ -123,7 +123,7 @@
 					<ExtendedTooltip name="ТЧМестаРазмещенияНомерСтрокиРасширеннаяПодсказка" id="34"/>
 				</LabelField>
 				<InputField name="ТЧМестаРазмещенияКомнатаМестаРазмещения" id="51">
-					<DataPath>Объект.ТЧМестаРазмещения.КомнатаМестаРазмещения</DataPath>
+					<DataPath>Объект.ТЧМестаРазмещения.КомнатаСредстваРазмещения</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<ChoiceParameterLinks>
 						<xr:Link>
@@ -141,7 +141,7 @@
 					<ChoiceParameterLinks>
 						<xr:Link>
 							<xr:Name>Отбор.Владелец</xr:Name>
-							<xr:DataPath xsi:type="xs:string">Items.ТЧМестаРазмещения.CurrentData.КомнатаМестаРазмещения</xr:DataPath>
+							<xr:DataPath xsi:type="xs:string">Items.ТЧМестаРазмещения.CurrentData.КомнатаСредстваРазмещения</xr:DataPath>
 							<xr:ValueChange>Clear</xr:ValueChange>
 						</xr:Link>
 					</ChoiceParameterLinks>
