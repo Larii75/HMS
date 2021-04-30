@@ -290,6 +290,20 @@
 				</InputField>
 			</ChildItems>
 		</Table>
+		<LabelField name="СтоимостьИтогСуммаСоСкидкой" id="107">
+			<DataPath>Объект.Стоимость.TotalСуммаСоСкидкой</DataPath>
+			<ReadOnly>true</ReadOnly>
+			<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+			<Format>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>ЧДЦ=2; ЧРД=.; ЧН=0.00</v8:content>
+				</v8:item>
+			</Format>
+			<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
+			<ContextMenu name="СтоимостьИтогСуммаСоСкидкойКонтекстноеМеню" id="108"/>
+			<ExtendedTooltip name="СтоимостьИтогСуммаСоСкидкойРасширеннаяПодсказка" id="109"/>
+		</LabelField>
 		<UsualGroup name="ГруппаГости" id="127">
 			<Title>
 				<v8:item>
@@ -373,20 +387,6 @@
 				</Table>
 			</ChildItems>
 		</UsualGroup>
-		<LabelField name="СтоимостьИтогСуммаСоСкидкой" id="107">
-			<DataPath>Объект.Стоимость.TotalСуммаСоСкидкой</DataPath>
-			<ReadOnly>true</ReadOnly>
-			<TitleFont ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
-			<Format>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>ЧДЦ=2; ЧРД=.; ЧН=0.00</v8:content>
-				</v8:item>
-			</Format>
-			<Font ref="style:NormalTextFont" bold="true" italic="false" underline="false" strikeout="false" kind="StyleItem"/>
-			<ContextMenu name="СтоимостьИтогСуммаСоСкидкойКонтекстноеМеню" id="108"/>
-			<ExtendedTooltip name="СтоимостьИтогСуммаСоСкидкойРасширеннаяПодсказка" id="109"/>
-		</LabelField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
