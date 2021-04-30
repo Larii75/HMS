@@ -204,12 +204,12 @@
 			<Metadata name="Catalog.ЭтажиСредствРазмещения.Attribute.Комментарий" id="d6b3baaf-9eec-47ec-9e85-a37ec297b8bf"/>
 		</Metadata>
 		<Metadata name="CommandGroup.ГруппаПечать" id="e182b0b8-5281-44de-8dc5-506f75fa61df" configVersion="dd25943f499fe04f96bf4a432261480c00000000"/>
-		<Metadata name="CommonForm.НастройкиСистемы" id="c1172431-aba1-4c70-b67e-8f211e9cf1af" configVersion="45b6e7c26bcfbc4a854a653fed272d8c00000000"/>
-		<Metadata name="CommonForm.НастройкиСистемы.Form" id="c1172431-aba1-4c70-b67e-8f211e9cf1af.0" configVersion="3bbfb455ee704c40ab4d96a2d381227d00000000"/>
+		<Metadata name="CommonForm.НастройкиСистемы" id="c1172431-aba1-4c70-b67e-8f211e9cf1af" configVersion="3df93147a02cfe4c99af651940f64e5100000000"/>
+		<Metadata name="CommonForm.НастройкиСистемы.Form" id="c1172431-aba1-4c70-b67e-8f211e9cf1af.0" configVersion="c4f6bf038d028b4c967b23b795f84aa300000000"/>
 		<Metadata name="CommonModule.БлокировкаДанныхСервер" id="a7a4c489-9cdb-4013-8b47-afb926b830cc" configVersion="51460ad71e855b4fb345433ab1ad9dd200000000"/>
 		<Metadata name="CommonModule.БлокировкаДанныхСервер.Module" id="a7a4c489-9cdb-4013-8b47-afb926b830cc.0" configVersion="01a0545ed5fbb34f83cc8a68b68b987a00000000"/>
-		<Metadata name="CommonModule.ПривилегированныйСервер" id="a67d3633-d14f-4510-ace0-efe870b61ece" configVersion="73be8319935c3d40a9db600ddcb9dead00000000"/>
-		<Metadata name="CommonModule.ПривилегированныйСервер.Module" id="a67d3633-d14f-4510-ace0-efe870b61ece.0" configVersion="ac627352b2807d459d3be8477909850300000000"/>
+		<Metadata name="CommonModule.ПривилегированныйСервер" id="a67d3633-d14f-4510-ace0-efe870b61ece" configVersion="8f3a9139abf60a47be69ecaa3d72f3c000000000"/>
+		<Metadata name="CommonModule.ПривилегированныйСервер.Module" id="a67d3633-d14f-4510-ace0-efe870b61ece.0" configVersion="e53a4fbc06925b45b2c7680973e9c2fc00000000"/>
 		<Metadata name="CommonModule.РегламентныеЗаданияСервер" id="1a950273-4cfe-4cc9-9d37-0103700b8c8b" configVersion="1b2c081040881b48b89e55429e3275aa00000000"/>
 		<Metadata name="CommonModule.РегламентныеЗаданияСервер.Module" id="1a950273-4cfe-4cc9-9d37-0103700b8c8b.0" configVersion="e6f7aea1fb157b4191b5e05e0737807a00000000"/>
 		<Metadata name="CommonModule.СтандартныеПодсистемыСервер" id="79bb4f62-9280-454e-8e76-cc292c7daf2f" configVersion="53776fcd8735124981f7f999395f896a00000000"/>
@@ -237,7 +237,8 @@
 		<Metadata name="Configuration.HotelManagementSystem.ManagedApplicationModule" id="a0068262-10a0-4841-82b6-f6e35a7fc312.6" configVersion="f127184a8fbdce49858a360d251ad25a00000000"/>
 		<Metadata name="Configuration.HotelManagementSystem.SessionModule" id="a0068262-10a0-4841-82b6-f6e35a7fc312.7" configVersion="cd33ea0dc7fe94479f397ac79828492100000000"/>
 		<Metadata name="Constant.АдресСервисаЗагрузкиВалют" id="082c2c1d-cf6b-42d0-8c15-726f3b2064d6" configVersion="4d421b855843f6448b682d6908f7f9fa00000000"/>
-		<Metadata name="Constant.ВалютаУчета" id="9eb0fd21-a300-4c82-8a42-1416b5dbff9a" configVersion="26434c8d21444b4cb4ddfaa68073eb8700000000"/>
+		<Metadata name="Constant.ВалютаУчета" id="9eb0fd21-a300-4c82-8a42-1416b5dbff9a" configVersion="629f56a09caeb8409a77771ad804cfb400000000"/>
+		<Metadata name="Constant.ВалютаУчета.ValueManagerModule" id="9eb0fd21-a300-4c82-8a42-1416b5dbff9a.0" configVersion="7d10f745bcb4e94a97409ff10650418400000000"/>
 		<Metadata name="Constant.ВариантОтменыБронирования" id="d9e5c435-f92e-42be-930c-b5e82933a078" configVersion="b6cfe8753debaa4b9df80bafdee24af500000000"/>
 		<Metadata name="Constant.ДнейОжиданияЗаселения" id="aec1db5d-8054-4970-aafa-f01da60cfe52" configVersion="2f111c1a136bcd40b13f4f2a75cd330d00000000"/>
 		<Metadata name="Constant.ОрганизацияПоУмолчанию" id="674786d6-427d-47bd-85d7-451799671c55" configVersion="f2db6b2aea98f74d92c742e29894c0ff00000000"/>
