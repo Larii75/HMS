@@ -41,21 +41,33 @@
 							<DataPath>Объект.МояОрганизация</DataPath>
 							<ContextMenu name="МояОрганизацияКонтекстноеМеню" id="6"/>
 							<ExtendedTooltip name="МояОрганизацияРасширеннаяПодсказка" id="7"/>
+							<Events>
+								<Event name="OnChange">МояОрганизацияПриИзменении</Event>
+							</Events>
 						</InputField>
 						<InputField name="СредствоРазмещения" id="8">
 							<DataPath>Объект.СредствоРазмещения</DataPath>
 							<ContextMenu name="СредствоРазмещенияКонтекстноеМеню" id="9"/>
 							<ExtendedTooltip name="СредствоРазмещенияРасширеннаяПодсказка" id="10"/>
+							<Events>
+								<Event name="OnChange">СредствоРазмещенияПриИзменении</Event>
+							</Events>
 						</InputField>
 						<InputField name="ЭтажСредстваРазмещения" id="11">
 							<DataPath>Объект.ЭтажСредстваРазмещения</DataPath>
 							<ContextMenu name="ЭтажСредстваРазмещенияКонтекстноеМеню" id="12"/>
 							<ExtendedTooltip name="ЭтажСредстваРазмещенияРасширеннаяПодсказка" id="13"/>
+							<Events>
+								<Event name="OnChange">ЭтажСредстваРазмещенияПриИзменении</Event>
+							</Events>
 						</InputField>
 						<InputField name="ВалютаДокумента" id="76">
 							<DataPath>Объект.ВалютаДокумента</DataPath>
 							<ContextMenu name="ВалютаДокументаКонтекстноеМеню" id="77"/>
 							<ExtendedTooltip name="ВалютаДокументаРасширеннаяПодсказка" id="78"/>
+							<Events>
+								<Event name="OnChange">ВалютаДокументаПриИзменении</Event>
+							</Events>
 						</InputField>
 					</ChildItems>
 				</UsualGroup>
@@ -79,6 +91,9 @@
 							<DataPath>Объект.Бронирующий</DataPath>
 							<ContextMenu name="БронируюущийКонтекстноеМеню" id="15"/>
 							<ExtendedTooltip name="БронируюущийРасширеннаяПодсказка" id="16"/>
+							<Events>
+								<Event name="OnChange">БронируюущийПриИзменении</Event>
+							</Events>
 						</InputField>
 						<UsualGroup name="ГруппаДата" id="125">
 							<Title>
@@ -109,6 +124,9 @@
 									<DataPath>ДатаОкончания</DataPath>
 									<ContextMenu name="ДатаОкончанияКонтекстноеМеню" id="123"/>
 									<ExtendedTooltip name="ДатаОкончанияРасширеннаяПодсказка" id="124"/>
+									<Events>
+										<Event name="OnChange">ДатаОкончанияПриИзменении</Event>
+									</Events>
 								</InputField>
 							</ChildItems>
 						</UsualGroup>
@@ -156,6 +174,9 @@
 				<ContextMenu name="МестаРазмещенияУправлениеПоискомКонтекстноеМеню" id="34"/>
 				<ExtendedTooltip name="МестаРазмещенияУправлениеПоискомРасширеннаяПодсказка" id="35"/>
 			</SearchControlAddition>
+			<Events>
+				<Event name="OnChange">МестаРазмещенияПриИзменении</Event>
+			</Events>
 			<ChildItems>
 				<LabelField name="МестаРазмещенияНомерСтроки" id="36">
 					<DataPath>Объект.МестаРазмещения.LineNumber</DataPath>

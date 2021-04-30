@@ -263,8 +263,8 @@
 			<Metadata name="DataProcessor.ДоскаЗаказов.Attribute.Окончание" id="ff3a5bdc-442e-412c-9fdb-ea2433ff57b9"/>
 			<Metadata name="DataProcessor.ДоскаЗаказов.Attribute.МыЗнаемКтоГость" id="ff6e260c-ae73-4238-822b-96a071aaba95"/>
 		</Metadata>
-		<Metadata name="DataProcessor.ДоскаЗаказов.Form.ОперативноеБронирование" id="923a8db7-47fb-42d7-aa33-49335b50ea87" configVersion="cdebd2f83660c44eb2bea74ac363bd8500000000"/>
-		<Metadata name="DataProcessor.ДоскаЗаказов.Form.ОперативноеБронирование.Form" id="923a8db7-47fb-42d7-aa33-49335b50ea87.0" configVersion="ef46b0b97440524b8539940a10df446d00000000"/>
+		<Metadata name="DataProcessor.ДоскаЗаказов.Form.ОперативноеБронирование" id="923a8db7-47fb-42d7-aa33-49335b50ea87" configVersion="f94ffd2529efdc4e94d2d2c6925c212000000000"/>
+		<Metadata name="DataProcessor.ДоскаЗаказов.Form.ОперативноеБронирование.Form" id="923a8db7-47fb-42d7-aa33-49335b50ea87.0" configVersion="68dea14a25b3e545b8b653489a54eced00000000"/>
 		<Metadata name="DataProcessor.ДоскаЗаказов.Form.Форма" id="36b0ec21-9f7e-4ba1-96e4-0d14424c2d20" configVersion="e1918877f4bb604f9b97536727a90cea00000000"/>
 		<Metadata name="DataProcessor.ДоскаЗаказов.Form.Форма.Form" id="36b0ec21-9f7e-4ba1-96e4-0d14424c2d20.0" configVersion="25199234866b3a43b87c49ad937bb30f00000000"/>
 		<Metadata name="DataProcessor.ДоскаЗаказов.ObjectModule" id="34771a68-3536-4de6-96c8-5d8f7e13e519.0" configVersion="8affde5593cbfb4baefacdce0f63b9c800000000"/>
