@@ -230,11 +230,11 @@
 		<Metadata name="CommonPicture.Сервис.Picture" id="21ca461e-810b-41fc-89d3-7fe8075cbc54.0" configVersion="b62d3e8a48805a4da7d7090c009d68a900000000"/>
 		<Metadata name="CommonPicture.Справочники" id="66e212f9-fc5f-43c0-80f8-f5edc85a9347" configVersion="6c17a546d886aa42bc5ec6efd8a0206800000000"/>
 		<Metadata name="CommonPicture.Справочники.Picture" id="66e212f9-fc5f-43c0-80f8-f5edc85a9347.0" configVersion="9fb607c30b099e4a94f9fc85d1c910eb00000000"/>
-		<Metadata name="Configuration.HotelManagementSystem" id="a92cebe9-4e30-4901-842c-b1cc1d0adc9a" configVersion="db26bbde1f5a0d40821ae6c96de9b7da00000000"/>
+		<Metadata name="Configuration.HotelManagementSystem" id="a92cebe9-4e30-4901-842c-b1cc1d0adc9a" configVersion="80296854b6dfb443bfe0b0cb2c9f838900000000"/>
 		<Metadata name="Configuration.HotelManagementSystem.CommandInterface" id="a0068262-10a0-4841-82b6-f6e35a7fc312.a" configVersion="ce69eec94e2ffa40a7cd2c1feb88287200000000"/>
 		<Metadata name="Configuration.HotelManagementSystem.HomePageWorkArea" id="a0068262-10a0-4841-82b6-f6e35a7fc312.8" configVersion="f7d90e05cd5cdc468e4437301442636d00000000"/>
 		<Metadata name="Configuration.HotelManagementSystem.MainSectionPicture" id="a0068262-10a0-4841-82b6-f6e35a7fc312.c" configVersion="b8adbb9ab804c549b64de5e732c5463e00000000"/>
-		<Metadata name="Configuration.HotelManagementSystem.ManagedApplicationModule" id="a0068262-10a0-4841-82b6-f6e35a7fc312.6" configVersion="5265f2842c4c70428af370686b68b14f00000000"/>
+		<Metadata name="Configuration.HotelManagementSystem.ManagedApplicationModule" id="a0068262-10a0-4841-82b6-f6e35a7fc312.6" configVersion="0daa3d33d92b274f9b1e76ee6a73825c00000000"/>
 		<Metadata name="Configuration.HotelManagementSystem.SessionModule" id="a0068262-10a0-4841-82b6-f6e35a7fc312.7" configVersion="cd33ea0dc7fe94479f397ac79828492100000000"/>
 		<Metadata name="Constant.АдресСервисаЗагрузкиВалют" id="082c2c1d-cf6b-42d0-8c15-726f3b2064d6" configVersion="4d421b855843f6448b682d6908f7f9fa00000000"/>
 		<Metadata name="Constant.ВалютаУчета" id="9eb0fd21-a300-4c82-8a42-1416b5dbff9a" configVersion="26434c8d21444b4cb4ddfaa68073eb8700000000"/>
