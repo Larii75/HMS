@@ -49,7 +49,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</xr:Item>
 			</DefaultRoles>
 			<Vendor>Larii75</Vendor>
-			<Version>Версия 1.0.0.0 beta Demo</Version>
+			<Version>Версия 1.0.0.0 beta2 Demo</Version>
 			<UpdateCatalogAddress>https://github.com/Larii75/HMS</UpdateCatalogAddress>
 			<IncludeHelpInContents>true</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
