@@ -41,9 +41,15 @@
 			</column>
 		</columnsItem>
 		<columnsItem>
-			<index>5</index>
+			<index>4</index>
 			<column>
 				<formatIndex>5</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>5</index>
+			<column>
+				<formatIndex>6</formatIndex>
 			</column>
 		</columnsItem>
 	</columns>
@@ -52,11 +58,6 @@
 		<row>
 			<c>
 				<i>1</i>
-				<c>
-					<f>6</f>
-				</c>
-			</c>
-			<c>
 				<c>
 					<f>7</f>
 				</c>
@@ -76,6 +77,11 @@
 					<f>10</f>
 				</c>
 			</c>
+			<c>
+				<c>
+					<f>11</f>
+				</c>
+			</c>
 		</row>
 	</rowsItem>
 	<rowsItem>
@@ -84,7 +90,7 @@
 			<c>
 				<i>1</i>
 				<c>
-					<f>11</f>
+					<f>12</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -95,23 +101,23 @@
 			</c>
 			<c>
 				<c>
-					<f>12</f>
-				</c>
-			</c>
-			<c>
-				<c>
 					<f>13</f>
-					<parameter>НаименованиеОрганизации</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
 					<f>14</f>
+					<parameter>НаименованиеОрганизации</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>15</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
 				</c>
 			</c>
 		</row>
@@ -139,28 +145,28 @@
 			<c>
 				<i>1</i>
 				<c>
+					<f>17</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>18</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+					<parameter>Гость</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
 					<f>15</f>
 				</c>
 			</c>
 			<c>
 				<c>
 					<f>16</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>17</f>
-					<parameter>Гость</parameter>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>14</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>5</f>
 				</c>
 			</c>
 		</row>
@@ -176,22 +182,22 @@
 			</c>
 			<c>
 				<c>
-					<f>3</f>
+					<f>20</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>4</f>
+					<f>21</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>14</f>
+					<f>15</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>18</f>
+					<f>22</f>
 				</c>
 			</c>
 		</row>
@@ -207,12 +213,12 @@
 			</c>
 			<c>
 				<c>
-					<f>3</f>
+					<f>20</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>4</f>
+					<f>21</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -223,13 +229,13 @@
 			</c>
 			<c>
 				<c>
-					<f>19</f>
+					<f>23</f>
 					<parameter>КогдаВыдан</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>16</f>
 				</c>
 			</c>
 		</row>
@@ -245,12 +251,12 @@
 			</c>
 			<c>
 				<c>
-					<f>3</f>
+					<f>20</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>4</f>
+					<f>21</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -261,13 +267,13 @@
 			</c>
 			<c>
 				<c>
-					<f>19</f>
+					<f>23</f>
 					<parameter>Действителен</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>16</f>
 				</c>
 			</c>
 		</row>
@@ -283,22 +289,22 @@
 			</c>
 			<c>
 				<c>
-					<f>3</f>
+					<f>20</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>4</f>
+					<f>21</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>14</f>
+					<f>15</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>18</f>
+					<f>22</f>
 				</c>
 			</c>
 		</row>
@@ -314,12 +320,12 @@
 			</c>
 			<c>
 				<c>
-					<f>3</f>
+					<f>20</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>4</f>
+					<f>21</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -330,18 +336,18 @@
 			</c>
 			<c>
 				<c>
-					<f>20</f>
+					<f>24</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>______________________</v8:content>
+							<v8:content>_________________</v8:content>
 						</v8:item>
 					</tl>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>5</f>
+					<f>16</f>
 				</c>
 			</c>
 		</row>
@@ -357,22 +363,22 @@
 			</c>
 			<c>
 				<c>
-					<f>21</f>
+					<f>25</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>22</f>
+					<f>26</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>23</f>
+					<f>27</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>24</f>
+					<f>28</f>
 				</c>
 			</c>
 		</row>
@@ -380,7 +386,7 @@
 	<drawing>
 		<drawingType>Picture</drawingType>
 		<id>1</id>
-		<formatIndex>25</formatIndex>
+		<formatIndex>29</formatIndex>
 		<beginRow>4</beginRow>
 		<beginRowOffset>0</beginRowOffset>
 		<endRow>10</endRow>
@@ -395,7 +401,7 @@
 		<pictureIndex>1</pictureIndex>
 	</drawing>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>14</defaultFormatIndex>
+	<defaultFormatIndex>15</defaultFormatIndex>
 	<height>11</height>
 	<vgRows>11</vgRows>
 	<merge>
@@ -467,13 +473,16 @@
 		<width>129</width>
 	</format>
 	<format>
-		<width>17</width>
+		<width>7</width>
 	</format>
 	<format>
-		<width>111</width>
+		<width>110</width>
 	</format>
 	<format>
-		<width>93</width>
+		<width>83</width>
+	</format>
+	<format>
+		<width>58</width>
 	</format>
 	<format>
 		<leftBorder>0</leftBorder>
@@ -523,6 +532,9 @@
 		<width>72</width>
 	</format>
 	<format>
+		<width>93</width>
+	</format>
+	<format>
 		<leftBorder>0</leftBorder>
 		<bottomBorder>0</bottomBorder>
 		<width>129</width>
@@ -538,6 +550,12 @@
 		<width>111</width>
 		<horizontalAlignment>Center</horizontalAlignment>
 		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<width>17</width>
+	</format>
+	<format>
+		<width>111</width>
 	</format>
 	<format>
 		<rightBorder>0</rightBorder>

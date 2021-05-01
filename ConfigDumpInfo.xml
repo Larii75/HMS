@@ -198,8 +198,8 @@
 		<Metadata name="Catalog.СредстваРазмещения" id="16d3a596-b6f7-4af3-84fb-9407eab89dba" configVersion="01a537ab8f2e224596d9214dd36db86000000000">
 			<Metadata name="Catalog.СредстваРазмещения.Attribute.Комментарий" id="814b2769-eecb-418d-bd1f-8c2999efc9c9"/>
 		</Metadata>
-		<Metadata name="Catalog.СтраныМира" id="44c92b0f-08a0-48e0-adab-d2138a8337b9" configVersion="fd713fe7280b42479817cbbd974c8d7600000000"/>
-		<Metadata name="Catalog.СтраныМира.Predefined" id="44c92b0f-08a0-48e0-adab-d2138a8337b9.1c" configVersion="08f03d879021c2438de31cd36fa4bd5f00000000"/>
+		<Metadata name="Catalog.СтраныМира" id="44c92b0f-08a0-48e0-adab-d2138a8337b9" configVersion="3b7ecba8fddfde45bc6d3975429f434500000000"/>
+		<Metadata name="Catalog.СтраныМира.Predefined" id="44c92b0f-08a0-48e0-adab-d2138a8337b9.1c" configVersion="fcd095bb921f51429f30e9389821733100000000"/>
 		<Metadata name="Catalog.ЭтажиСредствРазмещения" id="d87dab21-227a-451d-bb29-154da77656f6" configVersion="cbaba92ed4c7cf47b7b2b75266a99a6c00000000">
 			<Metadata name="Catalog.ЭтажиСредствРазмещения.Attribute.Комментарий" id="d6b3baaf-9eec-47ec-9e85-a37ec297b8bf"/>
 		</Metadata>
@@ -230,7 +230,7 @@
 		<Metadata name="CommonPicture.Сервис.Picture" id="21ca461e-810b-41fc-89d3-7fe8075cbc54.0" configVersion="b62d3e8a48805a4da7d7090c009d68a900000000"/>
 		<Metadata name="CommonPicture.Справочники" id="66e212f9-fc5f-43c0-80f8-f5edc85a9347" configVersion="6c17a546d886aa42bc5ec6efd8a0206800000000"/>
 		<Metadata name="CommonPicture.Справочники.Picture" id="66e212f9-fc5f-43c0-80f8-f5edc85a9347.0" configVersion="9fb607c30b099e4a94f9fc85d1c910eb00000000"/>
-		<Metadata name="Configuration.HotelManagementSystem" id="a92cebe9-4e30-4901-842c-b1cc1d0adc9a" configVersion="7f3f0c9d600ccf40a3c33ae72ab91f9300000000"/>
+		<Metadata name="Configuration.HotelManagementSystem" id="a92cebe9-4e30-4901-842c-b1cc1d0adc9a" configVersion="1945eb37403b6449860744b9a6aeb41e00000000"/>
 		<Metadata name="Configuration.HotelManagementSystem.CommandInterface" id="a0068262-10a0-4841-82b6-f6e35a7fc312.a" configVersion="ce69eec94e2ffa40a7cd2c1feb88287200000000"/>
 		<Metadata name="Configuration.HotelManagementSystem.HomePageWorkArea" id="a0068262-10a0-4841-82b6-f6e35a7fc312.8" configVersion="f7d90e05cd5cdc468e4437301442636d00000000"/>
 		<Metadata name="Configuration.HotelManagementSystem.MainSectionPicture" id="a0068262-10a0-4841-82b6-f6e35a7fc312.c" configVersion="b8adbb9ab804c549b64de5e732c5463e00000000"/>
@@ -347,7 +347,7 @@
 		<Metadata name="Document.Выселение.Form.ФормаДокумента" id="e4d86d3c-3ed5-4236-830d-7db388fec179" configVersion="bc067d081a6626418483ad40ba5454a800000000"/>
 		<Metadata name="Document.Выселение.Form.ФормаДокумента.Form" id="e4d86d3c-3ed5-4236-830d-7db388fec179.0" configVersion="184dbb935482744c8e3b1163b8e13e5700000000"/>
 		<Metadata name="Document.Выселение.ObjectModule" id="65df6dac-4041-4c88-ad1f-5e8c5ade7e04.0" configVersion="af92a7458c2c4644ac75bc2a30dd05f500000000"/>
-		<Metadata name="Document.Заселение" id="51777ced-c86e-4c25-a19b-6ff78fcb9372" configVersion="1b447aa93343bf41b2eb7c00346d27c700000000">
+		<Metadata name="Document.Заселение" id="51777ced-c86e-4c25-a19b-6ff78fcb9372" configVersion="8951b151e8711046a4cc04c43054dde500000000">
 			<Metadata name="Document.Заселение.TabularSection.ГостиПоМестам" id="08d5671a-f0f3-44f6-adfd-483861735a69"/>
 			<Metadata name="Document.Заселение.TabularSection.ГостиПоМестам.Attribute.Гость" id="41e132a6-3c77-4a0f-be70-e80ff779cf7e"/>
 			<Metadata name="Document.Заселение.Command.ПечатьПропусков" id="68a938d8-0c5b-4c58-ae1b-3cf12b250ba4"/>
@@ -366,14 +366,14 @@
 		<Metadata name="Document.Заселение.Command.ПечатьСоглашениеПоCovid19.CommandModule" id="c9c66f9a-5f88-463d-ba7a-d7b47b7287fb.2" configVersion="fc5d59b12dcc94469d97f1339a2a617f00000000"/>
 		<Metadata name="Document.Заселение.Form.ФормаДокумента" id="449dc47e-796f-4850-819c-af1bca8994d3" configVersion="3d58494aa28f1742ba8b4bc5ed5a802100000000"/>
 		<Metadata name="Document.Заселение.Form.ФормаДокумента.Form" id="449dc47e-796f-4850-819c-af1bca8994d3.0" configVersion="a529a8ea5a1df14891165fa84121e39e00000000"/>
-		<Metadata name="Document.Заселение.ManagerModule" id="51777ced-c86e-4c25-a19b-6ff78fcb9372.2" configVersion="64c932313a26294b99a2119a22f8aaa200000000"/>
+		<Metadata name="Document.Заселение.ManagerModule" id="51777ced-c86e-4c25-a19b-6ff78fcb9372.2" configVersion="7bed1152a7539942912430f32c093a2000000000"/>
 		<Metadata name="Document.Заселение.ObjectModule" id="51777ced-c86e-4c25-a19b-6ff78fcb9372.0" configVersion="1d2680a3744fcd4ea3c855fd49529ae600000000"/>
-		<Metadata name="Document.Заселение.Template.ПечатьПравилаОбщежития" id="e3a4dc63-249c-4073-9171-ef82e610d8e1" configVersion="cee696347473124d895d1c2eaebca0b500000000"/>
-		<Metadata name="Document.Заселение.Template.ПечатьПравилаОбщежития.Template" id="e3a4dc63-249c-4073-9171-ef82e610d8e1.0" configVersion="53025670dbb2de41a4ea903cfbc6c92000000000"/>
-		<Metadata name="Document.Заселение.Template.ПечатьПропусков" id="15f7c116-083d-4810-b4f7-cce3b801944f" configVersion="e67b895103aec745a3aa6148457ab69000000000"/>
-		<Metadata name="Document.Заселение.Template.ПечатьПропусков.Template" id="15f7c116-083d-4810-b4f7-cce3b801944f.0" configVersion="4a069728273f0e45901af4e911a138fd00000000"/>
-		<Metadata name="Document.Заселение.Template.СоглашениеПоCovid19" id="51f4dfd3-8645-4858-ad27-1bde9da5f555" configVersion="6cdc5f39a57d52489d301cf7be03aefa00000000"/>
-		<Metadata name="Document.Заселение.Template.СоглашениеПоCovid19.Template" id="51f4dfd3-8645-4858-ad27-1bde9da5f555.0" configVersion="7c385985f80b5843ad5366206b3cd3fb00000000"/>
+		<Metadata name="Document.Заселение.Template.ПечатьПравилаОбщежития" id="e3a4dc63-249c-4073-9171-ef82e610d8e1" configVersion="5418db2d2c4bac4f9eae21c1be7f04d400000000"/>
+		<Metadata name="Document.Заселение.Template.ПечатьПравилаОбщежития.Template" id="e3a4dc63-249c-4073-9171-ef82e610d8e1.0" configVersion="15aaf36b8483144eb283a2016ab91f3000000000"/>
+		<Metadata name="Document.Заселение.Template.ПечатьПропусков" id="15f7c116-083d-4810-b4f7-cce3b801944f" configVersion="cd43093626a2694f87881d8f8dae4e0b00000000"/>
+		<Metadata name="Document.Заселение.Template.ПечатьПропусков.Template" id="15f7c116-083d-4810-b4f7-cce3b801944f.0" configVersion="8e90b00a2c56c24db6b3a21d4aa12ff300000000"/>
+		<Metadata name="Document.Заселение.Template.СоглашениеПоCovid19" id="51f4dfd3-8645-4858-ad27-1bde9da5f555" configVersion="3773c0bc778d7c42ac887788d6de951e00000000"/>
+		<Metadata name="Document.Заселение.Template.СоглашениеПоCovid19.Template" id="51f4dfd3-8645-4858-ad27-1bde9da5f555.0" configVersion="74bbf995046df747b7700f19f8bcc65e00000000"/>
 		<Metadata name="Document.ОтзывСогласияНаОбработкуПерсональныхДанных" id="b502fbd0-94b7-4588-a256-21edebeaef72" configVersion="93a82538c416414ab013ef9bcf9f255200000000">
 			<Metadata name="Document.ОтзывСогласияНаОбработкуПерсональныхДанных.Attribute.Ответственный" id="027607cd-dc91-466f-a48c-3bbddb3ed907"/>
 			<Metadata name="Document.ОтзывСогласияНаОбработкуПерсональныхДанных.Attribute.ВладелецДанных" id="30398df4-dd5b-4770-b82c-84fa0b07778a"/>
