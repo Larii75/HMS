@@ -1,6 +1,6 @@
 # HMS
 Hotel management system
-1.0.0.0 beta2 demo 
+1.0.0.0 RC0 demo 
 (w/o price functions)
 
 Система управління готелем/хостелом
