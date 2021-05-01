@@ -88,18 +88,27 @@
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="БронирующийКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="БронирующийРасширеннаяПодсказка" id="12"/>
+			<Events>
+				<Event name="OnChange">БронирующийПриИзменении</Event>
+			</Events>
 		</InputField>
 		<InputField name="СредствоРазмещения" id="13">
 			<DataPath>Объект.СредствоРазмещения</DataPath>
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="СредствоРазмещенияКонтекстноеМеню" id="14"/>
 			<ExtendedTooltip name="СредствоРазмещенияРасширеннаяПодсказка" id="15"/>
+			<Events>
+				<Event name="OnChange">СредствоРазмещенияПриИзменении</Event>
+			</Events>
 		</InputField>
 		<InputField name="ЭтажРазмещения" id="16">
-			<DataPath>Объект.ЭтажРазмещения</DataPath>
+			<DataPath>Объект.ЭтажСредстваРазмещения</DataPath>
 			<EditMode>EnterOnInput</EditMode>
 			<ContextMenu name="ЭтажРазмещенияКонтекстноеМеню" id="17"/>
 			<ExtendedTooltip name="ЭтажРазмещенияРасширеннаяПодсказка" id="18"/>
+			<Events>
+				<Event name="OnChange">ЭтажРазмещенияПриИзменении</Event>
+			</Events>
 		</InputField>
 		<InputField name="Начало" id="19">
 			<DataPath>Объект.Начало</DataPath>
@@ -121,6 +130,7 @@
 		</InputField>
 		<InputField name="Валюта" id="25">
 			<DataPath>Объект.ВалютаДокумента</DataPath>
+			<Enabled>false</Enabled>
 			<EditMode>EnterOnInput</EditMode>
 			<AutoMaxWidth>false</AutoMaxWidth>
 			<MaxWidth>13</MaxWidth>
@@ -163,6 +173,7 @@
 			</SearchControlAddition>
 			<Events>
 				<Event name="BeforeEditEnd">МестаРазмещенияПередОкончаниемРедактирования</Event>
+				<Event name="OnChange">МестаРазмещенияПриИзменении</Event>
 			</Events>
 			<ChildItems>
 				<LabelField name="МестаРазмещенияНомерСтроки" id="50">
@@ -176,6 +187,9 @@
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="МестаРазмещенияКомнатаСредстваРазмещенияКонтекстноеМеню" id="54"/>
 					<ExtendedTooltip name="МестаРазмещенияКомнатаСредстваРазмещенияРасширеннаяПодсказка" id="55"/>
+					<Events>
+						<Event name="OnChange">МестаРазмещенияКомнатаСредстваРазмещенияПриИзменении</Event>
+					</Events>
 				</InputField>
 				<InputField name="МестаРазмещенияМестоРазмещения" id="56">
 					<DataPath>Объект.МестаРазмещения.МестоРазмещения</DataPath>
@@ -202,12 +216,20 @@
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="МестаРазмещенияЦенаКонтекстноеМеню" id="60"/>
 					<ExtendedTooltip name="МестаРазмещенияЦенаРасширеннаяПодсказка" id="61"/>
+					<Events>
+						<Event name="OnChange">МестаРазмещенияЦенаПриИзменении</Event>
+					</Events>
 				</InputField>
 				<InputField name="МестаРазмещенияЦенаВВалютеУчета" id="91">
 					<DataPath>Объект.МестаРазмещения.ЦенаВВалютеУчета</DataPath>
+					<Visible>false</Visible>
+					<DefaultItem>true</DefaultItem>
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="МестаРазмещенияЦенаВВалютеУчетаКонтекстноеМеню" id="92"/>
 					<ExtendedTooltip name="МестаРазмещенияЦенаВВалютеУчетаРасширеннаяПодсказка" id="93"/>
+					<Events>
+						<Event name="OnChange">МестаРазмещенияЦенаВВалютеУчетаПриИзменении</Event>
+					</Events>
 				</InputField>
 				<InputField name="МестаРазмещенияСкидка" id="62">
 					<DataPath>Объект.МестаРазмещения.СкидкаВВалютеДокумента</DataPath>
@@ -220,12 +242,20 @@
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="МестаРазмещенияСкидкаКонтекстноеМеню" id="63"/>
 					<ExtendedTooltip name="МестаРазмещенияСкидкаРасширеннаяПодсказка" id="64"/>
+					<Events>
+						<Event name="OnChange">МестаРазмещенияСкидкаПриИзменении</Event>
+					</Events>
 				</InputField>
 				<InputField name="МестаРазмещенияСкидкаВВалютеУчета" id="94">
 					<DataPath>Объект.МестаРазмещения.СкидкаВВалютеУчета</DataPath>
+					<Visible>false</Visible>
+					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="МестаРазмещенияСкидкаВВалютеУчетаКонтекстноеМеню" id="95"/>
 					<ExtendedTooltip name="МестаРазмещенияСкидкаВВалютеУчетаРасширеннаяПодсказка" id="96"/>
+					<Events>
+						<Event name="OnChange">МестаРазмещенияСкидкаВВалютеУчетаПриИзменении</Event>
+					</Events>
 				</InputField>
 				<InputField name="МестаРазмещенияСуммаСоСкидкой" id="65">
 					<DataPath>Объект.МестаРазмещения.СуммаСоСкидкойВВалютеДокумента</DataPath>
@@ -244,9 +274,14 @@
 				</InputField>
 				<InputField name="МестаРазмещенияСуммаСоСкидкойВВалютеУчета" id="97">
 					<DataPath>Объект.МестаРазмещения.СуммаСоСкидкойВВалютеУчета</DataPath>
+					<Visible>false</Visible>
+					<ReadOnly>true</ReadOnly>
 					<EditMode>EnterOnInput</EditMode>
 					<ContextMenu name="МестаРазмещенияСуммаСоСкидкойВВалютеУчетаКонтекстноеМеню" id="98"/>
 					<ExtendedTooltip name="МестаРазмещенияСуммаСоСкидкойВВалютеУчетаРасширеннаяПодсказка" id="99"/>
+					<Events>
+						<Event name="OnChange">МестаРазмещенияСуммаСоСкидкойВВалютеУчетаПриИзменении</Event>
+					</Events>
 				</InputField>
 			</ChildItems>
 		</Table>

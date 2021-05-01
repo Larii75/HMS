@@ -194,11 +194,11 @@
 			</Dimension>
 			<Dimension uuid="29536f80-d8ff-46c2-bfb8-f368a533376e">
 				<Properties>
-					<Name>ТипМестаРазмещения</Name>
+					<Name>КатегорияКомнатыРазмещения</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Тип места размещения</v8:content>
+							<v8:content>Категория комнаты размещения</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>

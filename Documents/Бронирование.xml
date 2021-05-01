@@ -204,11 +204,11 @@
 			</Attribute>
 			<Attribute uuid="23408083-4881-4919-8914-c8fd42bec489">
 				<Properties>
-					<Name>ЭтажРазмещения</Name>
+					<Name>ЭтажСредстваРазмещения</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Этаж размещения</v8:content>
+							<v8:content>Этаж средства размещения</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -696,7 +696,7 @@
 							<ChoiceParameterLinks>
 								<xr:Link>
 									<xr:Name>Отбор.Владелец</xr:Name>
-									<xr:DataPath xsi:type="xs:string">Document.Бронирование.Attribute.ЭтажРазмещения</xr:DataPath>
+									<xr:DataPath xsi:type="xs:string">Document.Бронирование.Attribute.ЭтажСредстваРазмещения</xr:DataPath>
 									<xr:ValueChange>Clear</xr:ValueChange>
 								</xr:Link>
 							</ChoiceParameterLinks>

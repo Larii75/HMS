@@ -19,7 +19,7 @@
 			<ExtendedTooltip name="ЭтажСредстваРазмещенияРасширеннаяПодсказка" id="9"/>
 		</InputField>
 		<InputField name="ТипМестаРазмещения" id="10">
-			<DataPath>Запись.ТипМестаРазмещения</DataPath>
+			<DataPath>Запись.КатегорияКомнатыРазмещения</DataPath>
 			<ContextMenu name="ТипМестаРазмещенияКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="ТипМестаРазмещенияРасширеннаяПодсказка" id="12"/>
 		</InputField>

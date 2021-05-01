@@ -31,6 +31,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОборотыОтменыБронирования</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиЗаселенияПоБронированиям</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиВыселенийПоЗаселениям</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиПроживающихГостей</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

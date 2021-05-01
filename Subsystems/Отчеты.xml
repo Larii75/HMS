@@ -26,7 +26,6 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ОтчетОстаткиВзаиморасчетов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ОстаткиБронирования</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ОтчетОборотыОплатыБронирований</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.ОстаткиПроживающихГостей</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Report.ОтчетОстаткиПроживающихГостей</xr:Item>
 			</Content>
 		</Properties>

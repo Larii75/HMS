@@ -4,16 +4,10 @@
 		<Command name="Report.ОстаткиБронирования.StandardCommand.Open">
 			<CommandGroup>ActionsPanelReports</CommandGroup>
 		</Command>
-		<Command name="Report.ОтчетОстаткиПроживающихГостей.StandardCommand.Open">
-			<CommandGroup>ActionsPanelReports</CommandGroup>
-		</Command>
-		<Command name="Report.ОтчетОстаткиВзаиморасчетов.StandardCommand.Open">
-			<CommandGroup>ActionsPanelReports</CommandGroup>
-		</Command>
 		<Command name="Report.ОтчетОстаткиМестРазмещения.StandardCommand.Open">
 			<CommandGroup>ActionsPanelReports</CommandGroup>
 		</Command>
-		<Command name="Report.ОтчетОстаткиМестРазмещенияВЭксплуатации.StandardCommand.Open">
+		<Command name="Report.ОтчетОстаткиПроживающихГостей.StandardCommand.Open">
 			<CommandGroup>ActionsPanelReports</CommandGroup>
 		</Command>
 		<Command name="Report.ОтчетОборотыЗаселения.StandardCommand.Open">
@@ -22,11 +16,18 @@
 		<Command name="Report.ОтчетОборотыВыселения.StandardCommand.Open">
 			<CommandGroup>ActionsPanelReports</CommandGroup>
 		</Command>
+		<Command name="Report.ОтчетОстаткиВзаиморасчетов.StandardCommand.Open">
+			<CommandGroup>ActionsPanelReports</CommandGroup>
+		</Command>
 		<Command name="Report.ОтчетОборотыОплатыБронирований.StandardCommand.Open">
+			<CommandGroup>ActionsPanelReports</CommandGroup>
+		</Command>
+		<Command name="Report.ОтчетОстаткиМестРазмещенияВЭксплуатации.StandardCommand.Open">
 			<CommandGroup>ActionsPanelReports</CommandGroup>
 		</Command>
 	</CommandsOrder>
 	<GroupsOrder>
+		<Group>ActionsPanelCreate</Group>
 		<Group>ActionsPanelReports</Group>
 	</GroupsOrder>
 </CommandInterface>
