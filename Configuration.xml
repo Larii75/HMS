@@ -28,11 +28,11 @@
 			</xr:ContainedObject>
 		</InternalInfo>
 		<Properties>
-			<Name>HotelManagementSystem</Name>
+			<Name>HostelManagementSystem</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Hotel management system</v8:content>
+					<v8:content>Hostel management system</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -186,7 +186,7 @@
 			<DetailedInformation>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Hotel Management System. BSD License 2.0</v8:content>
+					<v8:content>Hostel Management System. BSD License 2.0</v8:content>
 				</v8:item>
 			</DetailedInformation>
 			<Copyright>

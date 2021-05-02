@@ -1645,7 +1645,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Configuration.HotelManagementSystem</name>
+		<name>Configuration.HostelManagementSystem</name>
 		<right>
 			<name>DataAdministration</name>
 			<value>true</value>

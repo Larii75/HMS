@@ -4,7 +4,7 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>Configuration.HotelManagementSystem</name>
+		<name>Configuration.HostelManagementSystem</name>
 		<right>
 			<name>MainWindowModeNormal</name>
 			<value>true</value>
