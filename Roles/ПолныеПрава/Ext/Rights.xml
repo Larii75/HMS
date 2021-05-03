@@ -1463,6 +1463,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Report.ОтчетЗаказной</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>AccumulationRegister.ОстаткиБронирования</name>
 		<right>
 			<name>Read</name>
