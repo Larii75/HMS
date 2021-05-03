@@ -1,6 +1,6 @@
 # HMS
 Hostel management system
-1.0.0.0 RC0 demo
+1.0.0.0 RC1 demo
 
 Система управління хостелом
 
